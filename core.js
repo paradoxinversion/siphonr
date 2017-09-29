@@ -1,5 +1,4 @@
 const Twitter = require("twitter");
-const S = require("string");
 const commandLineArgs = require("command-line-args");
 const utilities = require("./siphonr-utilities.js");
 /**
@@ -26,12 +25,10 @@ const client = new Twitter(utilities.getSecrets());
 const getStatusStream = function(){
   client.stream("statuses/filter", {track: searchQuery}, function(stream){
     stream.on("data", function(tweet){
-      if (options.streamfilter){
-        if (tweet.text !== undefined && S(tweet.text).contains(options.streamfilter)){
-          console.log(`[${tweet.user.screen_name}] ${tweet.text}`);
-        }
-      }else{
-        console.log(`[${tweet.user.screen_name}] ${tweet.text}`);
+      if (options.inclretweets && tweet.retweeted_status){
+        utilities.displayTweet(tweet, options);
+      }else if (!tweet.retweeted_status){
+        utilities.displayTweet(tweet, options);
       }
     });
     stream.on("error", function(error){

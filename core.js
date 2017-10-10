@@ -111,6 +111,7 @@ async function postTweetThread(){
       await client.post("statuses/update", {status:tweet, in_reply_to_status_id: lastTweet.id_str})
         .then((tweet)=>{
           console.log(`@${tweet.user.screen_name}` + tweet.text);
+          lastTweet = tweet;
           return tweet
         })
         .catch(error=>{

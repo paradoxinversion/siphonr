@@ -1,6 +1,7 @@
 const Twitter = require("twitter");
 const commandLineArgs = require("command-line-args");
 const utilities = require("./siphonr-utilities.js");
+const splitter = require("./splitter.js");
 /**
 * Options
 **/
@@ -47,7 +48,11 @@ const getSearchResults = function(){
 };
 
 const getFavoriteUserTweets = function(){
-  client.get("favorites/list", {screen_name: searchQuery, count: options.count === undefined ? 20 : options.count}, function(error, tweets, response){
+  client.get("favorites/list",
+  {
+    screen_name: searchQuery,
+    count: options.count === undefined ? 20 : options.count},
+    function(error, tweets, response){
     if (error) throw error;
     tweets.forEach(function(element, index){
       console.log(`Result ${index+1}: ${tweets[index].text}\n`);
@@ -55,6 +60,7 @@ const getFavoriteUserTweets = function(){
   });
 };
 
+// Takes a screen name and returns 20 (or more) tweets in the timeline
 const getTimeLine = function(){
   client.get(
     "statuses/user_timeline",
@@ -72,11 +78,55 @@ const getTimeLine = function(){
     });
 };
 
+const postOneTweet = function(){
+  client.post(
+    "statuses/update",
+    {
+      status: searchQuery,
+    })
+    .then((tweet) =>{
+      console.log(tweet.text);
+      //console.log(response.statusCode);
+    })
+    .catch(error=>{
+      console.log(error);
+    });
+};
+
+async function postTweetThread(){
+  const tweetArray = await splitter(searchQuery);
+  let tweetIndex = 0;
+  let lastTweet = await client.post("statuses/update", {status:tweetArray[0]})
+    .then((tweet)=>
+    {
+      console.log(tweet.text)
+      return tweet;
+    })
+    .catch(error=>{
+      console.log(error)
+    });
+  console.log("Last: ", lastTweet);
+  for (let tweet of tweetArray){
+    if (tweetIndex != 0){
+      await client.post("statuses/update", {status:tweet, in_reply_to_status_id: lastTweet.id_str})
+        .then((tweet)=>{
+          console.log(`@${tweet.user.screen_name}` + tweet.text);
+          return tweet
+        })
+        .catch(error=>{
+          throw error;
+        });
+    }
+    tweetIndex++;
+  }
+}
 const commands = {
   stream : getStatusStream,
   search : getSearchResults,
   favorites : getFavoriteUserTweets,
-  timeline : getTimeLine
+  timeline : getTimeLine,
+  post : postOneTweet,
+  thread : postTweetThread
 };
-
+//console.log("Search for ", searchQuery)
 commands[mode]();

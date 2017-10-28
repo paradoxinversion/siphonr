@@ -85,11 +85,11 @@ const postOneTweet = function(){
       status: searchQuery,
     })
     .then((tweet) =>{
-      console.log(tweet.text);
-      //console.log(response.statusCode);
+      console.log("Posted Tweet:", tweet.text);
+      return tweet;
     })
     .catch(error=>{
-      console.log(error);
+      throw error;
     });
 };
 
@@ -99,18 +99,15 @@ async function postTweetThread(){
   let lastTweet = await client.post("statuses/update", {status:tweetArray[0]})
     .then((tweet)=>
     {
-      console.log(tweet.text)
       return tweet;
     })
     .catch(error=>{
-      console.log(error)
+      throw error;
     });
-  console.log("Last: ", lastTweet);
   for (let tweet of tweetArray){
     if (tweetIndex != 0){
       await client.post("statuses/update", {status:tweet, in_reply_to_status_id: lastTweet.id_str})
         .then((tweet)=>{
-          console.log(`@${tweet.user.screen_name}` + tweet.text);
           lastTweet = tweet;
           return tweet
         })

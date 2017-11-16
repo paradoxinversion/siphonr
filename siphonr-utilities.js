@@ -28,10 +28,19 @@ const displayMultipleTweets = function(tweets, options){
   }
 };
 
+const addSingleTweetToDB = async function(tweet){
+  await queries.addTweet(tweet);
+}
+
+/**
+* Adds an array of tweets to the database.
+* @param {Array} tweets An array of tweets to attempt to add to the db.
+*/
 const addMultipleTweetsToDB = async function(tweets){
   for (let tweet of tweets){
     await queries.addTweet(tweet);
   }
+  console.log(`Added ${tweets.length} tweets.`)
 };
 const logTweetData = function(tweet){
   log(tweet);
@@ -47,5 +56,6 @@ module.exports = {
   displayMultipleTweets,
   logTweetData,
   logMultipleTweetData,
+  addSingleTweetToDB,
   addMultipleTweetsToDB
 };

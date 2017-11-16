@@ -2,8 +2,8 @@ const { client } = require("../client");
 
 /**
 * Retrieves all favorites from a specific user's timeline.
-* @param {String} screenName
-* @param {Object} options
+* @param {String} screenName The screen name of the user who's favs to retrive
+* @param {Object} options 
 */
 module.exports = function getFavoriteUserTweets(screenName, options, callback){
   return client.get("favorites/list",

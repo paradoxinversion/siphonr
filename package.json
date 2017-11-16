@@ -10,7 +10,7 @@
     "db:drop": "dropdb siphonr"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jedai Saboteur",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.2.0",

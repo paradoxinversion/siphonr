@@ -22,22 +22,23 @@ const searchQuery = process.argv[3];
 const runCLI = function(){
   switch (command){
   case "stream":
-    streamTweets(searchQuery, options, utilities.displayTweet);
+    streamTweets(searchQuery, options, utilities.addSingleTweetToDB);
     break;
   case "search":
-    searchTweets(searchQuery, options, utilities.displayMultipleTweets);
+    searchTweets(searchQuery, options, utilities.addMultipleTweetsToDB);
     break;
   case "favorites":
     getUserFavorites(searchQuery, options, utilities.addMultipleTweetsToDB);
     break;
   case "timeline":
-    getUserTimeline(searchQuery, options, utilities.displayMultipleTweets);
+    getUserTimeline(searchQuery, options, utilities.addMultipleTweetsToDB);
     break;
   case "post":
-    postSingleTweet(searchQuery, options, utilities.displayMultipleTweets);
+    postSingleTweet(searchQuery, options, utilities.displayTweet);
     break;
   case "thread":
-    postTweetThread(searchQuery, options, utilities.displayMultipleTweets);
+    postTweetThread(searchQuery, options, utilities.displayTweet);
+    break;
   }
 };
 runCLI();

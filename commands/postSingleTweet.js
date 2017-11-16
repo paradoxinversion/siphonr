@@ -1,13 +1,13 @@
 const { client } = require("../client");
 
-module.exports= async function postOneTweet(searchQuery, options, callback){
+module.exports= function postOneTweet(searchQuery, options, callback){
   client.post(
     "statuses/update",
     {
       status: searchQuery,
     })
     .then((tweet) =>{
-      if (callback) callback(searchQuery, options);
+      if (callback) callback(tweet, options);
       // console.log(tweet.text);
     })
     .catch(error=>{

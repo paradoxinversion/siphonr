@@ -11,6 +11,5 @@ module.exports = async function getSearchResults(searchQuery, options, callback)
       return true;
     }
   });
-  console.log(refinedResults.length);
   if (callback) callback(refinedResults, options);
 };

@@ -43,7 +43,6 @@ const logMultipleTweetData = function(tweets){
   });
 };
 module.exports = {
-  getSecrets,
   displayTweet,
   displayMultipleTweets,
   logTweetData,

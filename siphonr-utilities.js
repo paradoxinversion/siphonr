@@ -1,16 +1,52 @@
 const fs = require("fs");
 const S = require("string");
+const chalk = require("chalk");
+const log = console.log;
+const queries = require("./controller/queries");
 
-const getSecrets = function(){
-  return JSON.parse(fs.readFileSync("secrets.json"));
-};
-const displayTweet = function(tweet, options){
+const displayTweet =  function(tweet, options){
   if (options.streamfilter){
     if (tweet.text !== undefined && S(tweet.text).contains(options.streamfilter)){
-      console.log(`[${tweet.user.screen_name}] ${tweet.text}\n`);
+      log(`[${tweet.user.screen_name} (id-${tweet.user.id_str})] ${tweet.text}\n`);
     }
   }else{
-    console.log(`[${tweet.user.screen_name}] ${tweet.text}\n`);
+    log(`[${chalk.green(tweet.user.screen_name)} (id-${tweet.user.id_str})] ${tweet.text}\n`);
+  }
+  return queries.addTweet(tweet);
+};
+
+const displayMultipleTweets = function(tweets, options){
+  if (tweets.statuses){
+    tweets.statuses.forEach((tweet) =>{
+      // console.log(tweet.text);
+      displayTweet(tweet, options);
+    });
+  } else{
+    tweets.forEach((tweet) =>{
+      displayTweet(tweet, options);
+    });
   }
 };
-module.exports = {getSecrets, displayTweet};
+
+const addMultipleTweetsToDB = async function(tweets){
+  for (let tweet of tweets){
+    await queries.addTweet(tweet);
+  }
+};
+const logTweetData = function(tweet){
+  log(tweet);
+};
+
+const logMultipleTweetData = function(tweets){
+  tweets.forEach((tweet) =>{
+    log(tweet);
+  });
+};
+module.exports = {
+  getSecrets,
+  displayTweet,
+  displayMultipleTweets,
+  logTweetData,
+  logMultipleTweetData,
+  addMultipleTweetsToDB
+};

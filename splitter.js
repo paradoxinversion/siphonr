@@ -9,7 +9,7 @@ function split(str){
   for (let word in splitStr){
     let currentWordLength = splitStr[word].length;
     let currentLineLength = returnPostLength(finalContainer[currentPartIndex]);
-    if (currentWordLength + currentLineLength < 140 - suffixChars){
+    if (currentWordLength + currentLineLength < 240 - suffixChars){
       finalContainer[currentPartIndex].push(splitStr[word]);
     }else{
       finalContainer.push([]);

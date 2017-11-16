@@ -4,13 +4,20 @@
   "description": "",
   "main": "core.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "db:create": "createdb siphonr && psql siphonr < ./db/schema.sql",
+    "db:reset": "psql siphonr < ./db/reset.sql",
+    "db:hardreset": "dropdb siphonr && createdb siphonr && psql siphonr < ./db/schema.sql",
+    "db:drop": "dropdb siphonr"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^2.2.0",
     "command-line-args": "^4.0.7",
+    "dotenv": "^4.0.0",
+    "lodash": "^4.17.4",
+    "pg-promise": "^7.2.1",
     "string": "^3.3.3",
     "twitter": "^1.7.1"
   }

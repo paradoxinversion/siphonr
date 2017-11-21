@@ -3,5 +3,6 @@ CREATE TABLE tweets(
   tweet_json jsonb NOT NULL
 );
 CREATE TABLE users(
-  id_str VARCHAR PRIMARY KEY
+  id_str VARCHAR PRIMARY KEY,
+  user_json jsonb NOT NULL
 );

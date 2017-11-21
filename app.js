@@ -9,15 +9,20 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
   res.render('index');
 });
+
 app.get('/logged-tweets', (req, res) => {
   queries.returnAllTweets().then((tweets) =>{
     res.render('allTweets', { tweets });
   });
+});
 
+app.get('/logged-users', (req, res) => {
+  queries.returnAllUsers().then((users) =>{
+    res.render('logged-users', { users });
+  });
 });
 
 app.delete('/tweets/:id_str', (req, res) =>{
-  console.log(req.params);
   queries.removeTweetById(req.params.id_str)
     .catch(e => {
       throw e;

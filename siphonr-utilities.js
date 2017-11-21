@@ -18,7 +18,6 @@ const displayTweet =  function(tweet, options){
 const displayMultipleTweets = function(tweets, options){
   if (tweets.statuses){
     tweets.statuses.forEach((tweet) =>{
-      // console.log(tweet.text);
       displayTweet(tweet, options);
     });
   } else{
@@ -40,7 +39,6 @@ const addMultipleTweetsToDB = async function(tweets){
   for (let tweet of tweets){
     await queries.addTweet(tweet);
   }
-  console.log(`Added ${tweets.length} tweets.`)
 };
 const logTweetData = function(tweet){
   log(tweet);

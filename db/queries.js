@@ -9,6 +9,9 @@ const checkTweetExistsTask = function(task, tweet){
       }else{
         return false;
       }
+    })
+    .catch(e => {
+      throw e;
     });
 };
 const insertTweetTask = function(task, tweet){
@@ -19,6 +22,9 @@ const insertTweetTask = function(task, tweet){
       } else{
         return null;
       }
+    })
+    .catch(e => {
+      throw e;
     });
 };
 
@@ -36,12 +42,46 @@ const addTweet = function(tweet){
           return t.oneOrNone('INSERT INTO users VALUES ($1) RETURNING *', [tweet.user.id_str])
             .then(() => {
               return insertTweetTask(t, tweet);
+            })
+            .catch(e => {
+              throw e;
             });
         }
+      })
+      .catch(e => {
+        throw e;
       });
-  });
+  })
+    .catch(e => {
+      throw e;
+    });
+};
+const returnAllTweets = function(){
+  return db.any("SELECT * from tweets")
+    .catch(e => {
+      throw e;
+    });
+};
+const getTweetsByUserId = function(userId){
+  return db.oneOrNone("SELECT tweet_json FROM tweets WHERE tweet_json -> 'user' ->> 'id_str' = $1", [userId])
+    .catch(e => {
+      throw e;
+    });
 };
 
+const removeTweetById = function(id_str){
+  return db.oneOrNone("DELETE FROM tweets WHERE tweet_json ->> 'id_str' = $1", [id_str])
+    .then(tweet =>{
+      console.log("deleted tweet");
+      return tweet;
+    })
+    .catch(e => {
+      throw e;
+    });
+};
 module.exports = {
-  addTweet
+  addTweet,
+  getTweetsByUserId,
+  returnAllTweets,
+  removeTweetById
 };

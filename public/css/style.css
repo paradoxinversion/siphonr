@@ -1,0 +1,23 @@
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.verified-status{
+  font-style: italic;
+}
+
+.tweet{
+  border: 3px solid black;
+  margin-bottom: 1rem;
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.quoted-tweet{
+  background-color: #F2F2F2;
+  border: 1px solid grey;
+  margin-bottom: 1rem;
+  padding: 8px;
+  border-radius: 16px;
+}

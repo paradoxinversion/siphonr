@@ -20,7 +20,6 @@ function split(str){
 
   return finalContainer.map((element, index, array)=>{
     element.push(`[${index+1}/${array.length}]`);
-    // console.log(`Post ${index}/Length: ${returnPostLength(element)}| ${element.join(" ")}`);
     return element.join(" ");
   });
 }

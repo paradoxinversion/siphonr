@@ -7,7 +7,8 @@ module.exports = function getTimeLine(searchQuery, options, callback){
       screen_name: searchQuery,
       count: options.count === undefined ? 20 : options.count,
       exclude_replies: options.noreplies,
-      include_rts: options.inclretweets === undefined ? false : true
+      include_rts: options.inclretweets === undefined ? false : true,
+      tweet_mode: 'extended'
     })
     .then(tweets => {
       if (callback) callback(tweets, options);

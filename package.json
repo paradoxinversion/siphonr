@@ -2,7 +2,7 @@
   "name": "Siphonr",
   "version": "1.0.0",
   "description": "",
-  "main": "core.js",
+  "main": "app.js",
   "scripts": {
     "db:create": "createdb siphonr && psql siphonr < ./db/schema.sql",
     "db:reset": "psql siphonr < ./db/reset.sql",
@@ -16,8 +16,10 @@
     "chalk": "^2.2.0",
     "command-line-args": "^4.0.7",
     "dotenv": "^4.0.0",
+    "express": "^4.16.2",
     "lodash": "^4.17.4",
     "pg-promise": "^7.2.1",
+    "pug": "^2.0.0-rc.4",
     "string": "^3.3.3",
     "twitter": "^1.7.1"
   }

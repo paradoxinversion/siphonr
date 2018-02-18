@@ -2,17 +2,24 @@ const fs = require("fs");
 const S = require("string");
 const chalk = require("chalk");
 const log = console.log;
-const queries = require("./controller/queries");
+const sentiment = require("sentiment");
+const getTweetText = function(tweet){
+  if (tweet.full_text){
+    return tweet.full_text;
+  } else{
+    return tweet.text;
+  }
+};
 
 const displayTweet =  function(tweet, options){
   if (options.streamfilter){
     if (tweet.text !== undefined && S(tweet.text).contains(options.streamfilter)){
-      log(`[${tweet.user.screen_name} (id-${tweet.user.id_str})] ${tweet.text}\n`);
+      log(`[${tweet.user.screen_name} (id-${tweet.user.id_str})] ${getTweetText(tweet)}\n`);
     }
   }else{
-    log(`[${chalk.green(tweet.user.screen_name)} (id-${tweet.user.id_str})] ${tweet.text}\n`);
+    log(`[${chalk.green(tweet.user.screen_name)} (id-${tweet.user.id_str})] ${getTweetText(tweet)}\n`);
   }
-  return queries.addTweet(tweet);
+  log(getTweetSentiment(tweet));
 };
 
 const displayMultipleTweets = function(tweets, options){
@@ -27,23 +34,42 @@ const displayMultipleTweets = function(tweets, options){
   }
 };
 
-const addSingleTweetToDB = async function(tweet){
-  await queries.addTweet(tweet);
-}
-
-/**
-* Adds an array of tweets to the database.
-* @param {Array} tweets An array of tweets to attempt to add to the db.
-*/
-const addMultipleTweetsToDB = async function(tweets){
-  for (let tweet of tweets){
-    await queries.addTweet(tweet);
-  }
+const getTweetSentiment = function(tweet){
+  const tweetSentiment = sentiment(getTweetText(tweet));
+  return tweetSentiment;
 };
+
 const logTweetData = function(tweet){
   log(tweet);
 };
 
+const getUserMentions = function(tweet){
+  return tweet.entities.user_mentions;
+};
+const getRetweetCount = function(tweet){
+  if (tweet.retweeted){
+    return tweet.retweet_count;
+  }
+  return 0;
+};
+
+const getHashtags = function(tweet){
+  return tweet.entities.hashtags;
+};
+
+// Returns data about what the tweet was in reply to (if it was a reply)
+// Does not return the referenced tweet
+const getReplyData = function(tweet){
+  const replyData = {
+    statusIdStr : null,
+    userIdStr: null,
+  };
+  if (tweet.in_reply_to_status_id != null){
+    replyData.statusIdStr = tweet.in_reply_to_status_id;
+    replyData.userIdStr = tweet.in_reply_to_user_id_str;
+  }
+  return replyData;
+};
 const logMultipleTweetData = function(tweets){
   tweets.forEach((tweet) =>{
     log(tweet);
@@ -54,6 +80,8 @@ module.exports = {
   displayMultipleTweets,
   logTweetData,
   logMultipleTweetData,
-  addSingleTweetToDB,
-  addMultipleTweetsToDB
+  getUserMentions,
+  getRetweetCount,
+  getHashtags,
+  getReplyData
 };

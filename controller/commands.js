@@ -5,12 +5,13 @@ const searchTweets = require(commands + "/searchTweets");
 const streamTweets = require(commands + "/streamTweets");
 const postSingleTweet = require(commands + "/postSingleTweet");
 const postTweetThread = require(commands + "/postTweetThread");
-
+const getMostCommonHashTags = require(commands + "/getMostCommonHashTags");
 module.exports = {
   getUserFavorites,
   getUserTimeline,
   searchTweets,
   streamTweets,
   postSingleTweet,
-  postTweetThread
+  postTweetThread,
+  getMostCommonHashTags
 };

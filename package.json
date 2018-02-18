@@ -4,10 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "db:create": "createdb siphonr && psql siphonr < ./db/schema.sql",
-    "db:reset": "psql siphonr < ./db/reset.sql",
-    "db:hardreset": "dropdb siphonr && createdb siphonr && psql siphonr < ./db/schema.sql",
-    "db:drop": "dropdb siphonr"
+    "start": "node core.js"
   },
   "keywords": [],
   "author": "Jedai Saboteur",
@@ -15,11 +12,13 @@
   "dependencies": {
     "chalk": "^2.2.0",
     "command-line-args": "^4.0.7",
+    "compromise": "^11.4.0",
     "dotenv": "^4.0.0",
     "express": "^4.16.2",
     "lodash": "^4.17.4",
     "pg-promise": "^7.2.1",
     "pug": "^2.0.0-rc.4",
+    "sentiment": "^4.2.0",
     "string": "^3.3.3",
     "twitter": "^1.7.1"
   }

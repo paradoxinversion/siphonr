@@ -34,4 +34,9 @@ The username to use for the query
 streamfilter -s | String
 the term to search for when using a stream
 
-commands
+# Commands
+## getUserTimeline(username, options, from = undefined)
+Returns tweets from the timeline of the supplied username.
+### Options
+count: How many tweets to retrieve. If undefined, will default to 20. If more than
+20,

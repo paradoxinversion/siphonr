@@ -3,7 +3,7 @@ const siphonerUtilities = require("../siphonr-utilities");
 import getTweetHashtagsFromArray from "./getTweetHashtagsFromArray";
 import getMostCommonHashTags from "./getMostCommonHashTags";
 import getTopTweets from "./getTopTweets";
-
+import processTweetArray from "./processTweetArray";
 // Takes a screen name and returns 20 (or more) tweets in the timeline
 const getTimeLine = async (screenName, count, from = undefined, maxRuns = 15) => {
 
@@ -59,24 +59,7 @@ const getTimeLine = async (screenName, count, from = undefined, maxRuns = 15) =>
     throw e;
   }
 
-  const tweetData = twitterResult.map((tweet) => {
-
-    return {
-      created_at: tweet.created_at,
-      id_str: tweet.id_str,
-      full_text: tweet.full_text,
-      hashtags: getTweetHashtagsFromArray(twitterResult),
-      in_reply_to_status_id_str: tweet.in_reply_to_status_id_str,
-      in_reply_to_user_id_str: tweet.in_reply_to_user_id_str,
-      in_reply_to_screen_name: tweet.in_reply_to_screen_name,
-      is_quote_status: tweet.is_quote_status,
-      retweet_count: tweet.retweet_count,
-      favorite_count: tweet.favorite_count,
-      favorited: tweet.favorited,
-      retweeted: tweet.retweeted,
-      media: siphonerUtilities.getTweetMedia(tweet)
-    };
-  });
+  const tweetData = processTweetArray(twitterResult);
   // console.log(twitterResult);
   const timelineData = {
     user: {

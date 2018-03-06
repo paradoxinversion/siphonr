@@ -5,9 +5,6 @@ const getTweetHashtagsFromArray = (tweetArr) => {
       hashtags.push(tag.text);
     });
   });
-
-
-  // console.log(hashtags);
   return hashtags;
 };
 

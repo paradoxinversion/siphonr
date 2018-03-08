@@ -1,4 +1,3 @@
-
 const getTopTweets = (tweetArray, byRetweet)=>{
   const topTweets = tweetArray.map((tweet) => {
     return {

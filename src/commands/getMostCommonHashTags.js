@@ -1,4 +1,3 @@
-
 // Returns a tuple with the hashtag and how many times it has been used, in order
 const getMostCommonHashTags = (tweetArray, amount= 10) => {
   const rawTagFrequency = {};

@@ -7,7 +7,7 @@ const sentiment = require("sentiment");
 const loadLocalTweetData = () => {
   const tweets = fs.readFileSync("./tweetdata.txt", "utf8");
   return JSON.parse(tweets);
-}
+};
 const getTweetText = function(tweet){
   if (tweet.full_text){
     return tweet.full_text;

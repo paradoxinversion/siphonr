@@ -1,15 +1,22 @@
-const { client } = require("../client");
-const siphonerUtilities = require("../siphonr-utilities");
-import getTweetHashtagsFromArray from "./getTweetHashtagsFromArray";
+const Twitter = require("twitter");
+const twitterConfig = require("../config/config.js").getConfig().twitter;
 import getMostCommonHashTags from "./getMostCommonHashTags";
 import getTopTweets from "./getTopTweets";
 import processTweetArray from "./processTweetArray";
-// Takes a screen name and returns 20 (or more) tweets in the timeline
-const getTimeLine = async (screenName, count, from = undefined, maxRuns = 15) => {
 
+// Takes a screen name and returns 20 (or more) tweets in the timeline
+const getTimeLine = async (token, secret, screenName, count, from = undefined, maxRuns = 15) => {
   count = count === undefined ? 20 : count;
   let twitterResult;
   try{
+    const config = {
+      consumer_key : twitterConfig.consumer_key,
+      consumer_secret: twitterConfig.consumer_secret,
+      access_token_key: token,
+      access_token_secret: secret,
+      callbackURL: twitterConfig.callbackURL
+    };
+    const client = await new Twitter(config);
     if (count === undefined || count <= 200){
       try {
         twitterResult = await client.get( "statuses/user_timeline",{
@@ -52,15 +59,16 @@ const getTimeLine = async (screenName, count, from = undefined, maxRuns = 15) =>
           }
         }
       } catch (e){
+        console.error("Error getting timeline::", e)
         throw e;
       }
     }
   } catch (e){
+    console.error("Error getting timeline::", e)
     throw e;
   }
 
   const tweetData = processTweetArray(twitterResult);
-  // console.log(twitterResult);
   const timelineData = {
     user: {
       id_str: twitterResult[0].user.id_str,
@@ -81,7 +89,6 @@ const getTimeLine = async (screenName, count, from = undefined, maxRuns = 15) =>
     tweetData,
     topTweets: getTopTweets(twitterResult)
   };
-  // console.log(timelineData);
   return timelineData;
 };
 export default getTimeLine;

@@ -1,52 +1,26 @@
 import path from "path";
 import express from "express";
 import bodyParser from "body-parser";
-import cookieParser from "cookie-parser";
 import morgan from "morgan";
 import session from "express-session";
 import User from "./database/User";
-// import passport from "passport";
-const passport = require("passport"),
-  TwitterStrategy = require("passport-twitter").Strategy;
+import {startClient} from "./database/mongoClient";
+const passport = require("passport");
+const TwitterTokenStrategy = require("passport-twitter-token");
 const twitterConfig = require("./config/config.js").getConfig().twitter;
+const sessionConfig = require("./config/config.js").getConfig().session;
 
+startClient();
 const app = express();
 
-// Allow CORS
-// app.use((req, res, next) => {
-//   res.header('Access-Control-Allow-Origin', '*');
-//   res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE');
-//   res.header('Access-Control-Allow-Headers', 'Content-Type');
-//   next();
-// });
-
-passport.use(new TwitterStrategy({
+passport.use(new TwitterTokenStrategy({
   consumerKey: twitterConfig.consumer_key,
-  consumerSecret: twitterConfig.consumer_secret,
-  callbackURL: `http://localhost:3001/twitter/callback`
+  consumerSecret: twitterConfig.consumer_secret
 },
-async function(token, tokenSecret, profile, done){
-
-  try{
-    console.log("token:", token);
-    console.log("tokenSecret:", tokenSecret);
-    console.log("profile:", profile)
-    const user = await User.findOne({twitterId: profile.id});
-    console.log("Twitter User::",user);
-    if (!user){
-      const newUser = new User({
-        twitterId: profile.id,
-        token: token
-      });
-      await newUser.save();
-      return done (null, newUser);
-    } else {
-      return done(null, user);
-    }
-  } catch (e){
-    console.log(e);
-    return (e, false);
-  }
+function(token, tokenSecret, profile, done){
+  User.upsertTwitterUser(token, tokenSecret, profile, function(err, user){
+    return done(err, user);
+  });
 }));
 
 passport.serializeUser(function(user, done){
@@ -62,16 +36,18 @@ passport.deserializeUser(function(id, done){
 // Set middlewares
 app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(session({
-  secret: 'keyboard cat',
+  secret: sessionConfig.session_secret,
   resave: true,
   saveUninitialized: true
 }));
+
 app.use(passport.initialize());
 app.use(passport.session());
-// Set Routes
+
+
 const api = require('./api/v1.js');
 const auth = require("./api/twitterAuthentication.js");
 app.use("/", api);

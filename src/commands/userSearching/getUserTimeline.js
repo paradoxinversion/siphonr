@@ -1,8 +1,8 @@
 const Twitter = require("twitter");
-const twitterConfig = require("../config/config.js").getConfig().twitter;
-import getMostCommonHashTags from "./getMostCommonHashTags";
-import getTopTweets from "./getTopTweets";
-import processTweetArray from "./processTweetArray";
+const twitterConfig = require("../../config/config.js").getConfig().twitter;
+import getMostCommonHashTags from "../tweetProcessing/getMostCommonHashTags";
+import getTopTweets from "../tweetProcessing/getTopTweets";
+import processTweetArray from "../tweetProcessing/processTweetArray";
 
 // Takes a screen name and returns 20 (or more) tweets in the timeline
 const getTimeLine = async (token, secret, screenName, count, from = undefined, maxRuns = 15) => {
@@ -67,7 +67,6 @@ const getTimeLine = async (token, secret, screenName, count, from = undefined, m
     console.error("Error getting timeline::", e)
     throw e;
   }
-
   const tweetData = processTweetArray(twitterResult);
   const timelineData = {
     user: {
@@ -87,7 +86,9 @@ const getTimeLine = async (token, secret, screenName, count, from = undefined, m
       most_common_hashtags: getMostCommonHashTags(twitterResult)
     },
     tweetData,
-    topTweets: getTopTweets(twitterResult)
+    topTweetsByRT: Object.assign([],tweetData).sort((a,b) =>{
+      return b.retweet_count - a.retweet_count; })
+
   };
   return timelineData;
 };

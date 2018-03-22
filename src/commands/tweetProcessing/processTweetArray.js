@@ -1,10 +1,8 @@
-const siphonrUtilities = require("../siphonr-utilities");
 import getTweetHashtagsFromArray from "./getTweetHashtagsFromArray";
+import getRetweetAndQuoteData from "./getRetweetAndQuoteData";
+import getTweetMedia from "./getTweetMedia";
 export default (tweets) => {
   const tweetData = tweets.map((tweet) => {
-    if (tweet.retweeted_status){
-      console.log(tweet.retweeted_status);
-    }
     return {
       created_at: tweet.created_at,
       id_str: tweet.id_str,
@@ -18,7 +16,8 @@ export default (tweets) => {
       favorite_count: tweet.favorite_count,
       favorited: tweet.favorited,
       retweeted: tweet.retweeted,
-      media: siphonrUtilities.getTweetMedia(tweet),
+      media: getTweetMedia(tweet),
+      quote_retweet:getRetweetAndQuoteData(tweet),
       retweet: tweet.retweeted_status ? {
         created_at: tweet.retweeted_status.created_at,
         id_str: tweet.retweeted_status.id_str,
@@ -32,7 +31,7 @@ export default (tweets) => {
         favorite_count: tweet.retweeted_status.favorite_count,
         favorited: tweet.retweeted_status.favorited,
         retweeted: tweet.retweeted_status.retweeted,
-        media: siphonrUtilities.getTweetMedia(tweet.retweeted_status),
+        media: getTweetMedia(tweet.retweeted_status),
       } : null
     };
   });

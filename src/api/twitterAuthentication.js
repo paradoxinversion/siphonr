@@ -43,6 +43,7 @@ router.route("/twitter")
         token: req.query.oauth_token
       },
       form: { oauth_verifier: req.query.oauth_verifier}
+      //consider setting app/json as content type to see if it causes t to send back same
     }, function(err, r, body){
       if (err){
         return res.send(500, {message: err.message});

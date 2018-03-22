@@ -1,4 +1,4 @@
-import getUserTimeline from "../commands/getUserTimeline";
+import getUserTimeline from "../commands/userSearching/getUserTimeline";
 
 const search = async (req, res) => {
   try{

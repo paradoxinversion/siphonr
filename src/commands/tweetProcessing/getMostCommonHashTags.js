@@ -1,5 +1,9 @@
-// Returns a tuple with the hashtag and how many times it has been used, in order
-const getMostCommonHashTags = (tweetArray, amount= 10) => {
+/**
+* Returns a tuple with the hashtag and how many times it has been used, in order
+* @param {object} tweet
+* @returns An object with more information about the reply
+**/
+const getMostCommonHashTags = (tweetArray, amount = 10) => {
   const rawTagFrequency = {};
   tweetArray.forEach((tweet) => {
     if (tweet.entities.hashtags.length > 0){

@@ -2,11 +2,14 @@
   "name": "siphonr",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "./src/server.js",
   "scripts": {
     "test": "mocha --reporter spec --require babel-register --require babel-polyfill",
     "babel-node": "babel-node --presets env",
-    "start": "nodemon --exec npm run babel-node -- ./src/server.js"
+    "start": "nodemon --exec npm run babel-node -- ./src/server.js",
+    "start:heroku": "npm run build && npm run serve",
+    "build": "babel ./src -d dist",
+    "serve": "node dist/server.js"
   },
   "keywords": [],
   "author": "Jedai Saboteur",

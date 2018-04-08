@@ -1,3 +1,4 @@
+import "babel-polyfill";
 import path from "path";
 import express from "express";
 import bodyParser from "body-parser";
@@ -9,6 +10,7 @@ const passport = require("passport");
 const TwitterTokenStrategy = require("passport-twitter-token");
 const twitterConfig = require("./config/config.js").getConfig().twitter;
 const sessionConfig = require("./config/config.js").getConfig().session;
+const general = require("./config/config.js").getConfig().general;
 
 startClient();
 const app = express();
@@ -66,4 +68,4 @@ app.use(function(err, req, res, next){
 });
 
 // Start the Server
-app.listen(3001, () => console.log('Siphonr API Running'));
+app.listen(general.port);

@@ -1,4 +1,4 @@
-const getTopTweets = (tweetArray, byRetweet)=>{
+const getTopTweets = (tweetArray, byRetweet = false)=>{
   const topTweets = tweetArray.map((tweet) => {
     return {
       created_at: tweet.created_at,

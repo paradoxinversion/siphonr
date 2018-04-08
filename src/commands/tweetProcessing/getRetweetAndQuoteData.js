@@ -1,9 +1,8 @@
 import getTweetHashtags from "./getTweetHashtags";
 import getTweetMedia from "./getTweetMedia";
-export default (tweet) => {
+const getRetweetAndQuoteData = (tweet) => {
   try{
     if (tweet.created_at !== undefined){
-
       return {
         retweet: tweet.retweeted_status ? {
           created_at: tweet.retweeted_status.created_at,
@@ -20,7 +19,7 @@ export default (tweet) => {
           retweeted: tweet.retweeted_status.retweeted,
           media: getTweetMedia(tweet.retweeted_status),
         } : null,
-        quote: tweet.is_quote_status ? {
+        quote: tweet.quoted_status ? {
           created_at: tweet.quoted_status.created_at,
           id_str: tweet.quoted_status.id_str,
           full_text: tweet.quoted_status.full_text,
@@ -40,5 +39,6 @@ export default (tweet) => {
   } catch (e){
     console.log(e);
   }
-
 };
+
+export default getRetweetAndQuoteData;

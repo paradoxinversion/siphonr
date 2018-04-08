@@ -1,3 +1,4 @@
+// Returns an array of hashtags from a tweet containing them, or an empty array if no hashtags exist
 const getTweetHashtagsFromArray = (tweetArr) => {
   let hashtags = [];
   tweetArr.forEach((tweet) =>{

@@ -1,11 +1,18 @@
 const Twitter = require("twitter");
 const twitterConfig = require("../../config/config.js").getConfig().twitter;
-import getMostCommonHashTags from "../tweetProcessing/getMostCommonHashTags";
-import getTopTweets from "../tweetProcessing/getTopTweets";
-import processTweetArray from "../tweetProcessing/processTweetArray";
 
-// Takes a screen name and returns 20 (or more) tweets in the timeline
-const getTimeLine = async (token, secret, screenName, count, from = undefined, maxRuns = 15) => {
+//
+/**
+* Takes a screen name and returns 20 (or more) tweets in the timeline
+* @param {string} token the user's authentication token from twitter
+* @param {string} secet the user's authentication secret from twitter
+* @param {string} screenName the screen name of the user to search
+* @param {number} count the amount of tweets to retrives
+* @param {string} from the tweet to begin retrieving from, if not the beginning of the timeline
+* @param {number} maxRuns the max amount of times to attempt to get more data
+* @returns An object with information about and links to the media in the tweet
+**/
+const getUserTimeline = async(token, secret, screenName, count, from = undefined, maxRuns = 15) => {
   count = count === undefined ? 20 : count;
   let twitterResult;
   try{
@@ -25,6 +32,7 @@ const getTimeLine = async (token, secret, screenName, count, from = undefined, m
           include_rts: true,
           tweet_mode: 'extended',
         });
+        return twitterResult;
       } catch (e){
         throw e;
       }
@@ -58,6 +66,7 @@ const getTimeLine = async (token, secret, screenName, count, from = undefined, m
             break;
           }
         }
+        return twitterResult;
       } catch (e){
         console.error("Error getting timeline::", e)
         throw e;
@@ -67,29 +76,7 @@ const getTimeLine = async (token, secret, screenName, count, from = undefined, m
     console.error("Error getting timeline::", e)
     throw e;
   }
-  const tweetData = processTweetArray(twitterResult);
-  const timelineData = {
-    user: {
-      id_str: twitterResult[0].user.id_str,
-      name: twitterResult[0].user.name,
-      screen_name: twitterResult[0].user.screen_name,
-      location: twitterResult[0].user.location,
-      description: twitterResult[0].user.description,
-      created_at: twitterResult[0].user.created_at,
-      followers_count: twitterResult[0].user.followers_count,
-      friends_count: twitterResult[0].user.friends_count,
-      verified: twitterResult[0].user.verified,
-      statuses_count: twitterResult[0].user.statuses_count,
-      default_profile: twitterResult[0].user.default_profile,
-      default_profile_image: twitterResult[0].user.default_profile_image,
-      profile_image: twitterResult[0].user.profile_image_url_https.replace(/_normal/, "_400x400"),
-      most_common_hashtags: getMostCommonHashTags(twitterResult)
-    },
-    tweetData,
-    topTweetsByRT: Object.assign([],tweetData).sort((a,b) =>{
-      return b.retweet_count - a.retweet_count; })
 
-  };
-  return timelineData;
-};
-export default getTimeLine;
+}
+
+export default getUserTimeline;

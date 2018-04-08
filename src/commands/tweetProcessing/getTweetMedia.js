@@ -3,7 +3,7 @@
 * @param {object} tweet
 * @returns An object with information about and links to the media in the tweet
 **/
-const getTweetMedia = function(tweet){
+const getTweetMedia = (tweet) => {
   let tweetMediaResult = [];
   if (tweet.extended_entities){
     if (tweet.extended_entities.media){

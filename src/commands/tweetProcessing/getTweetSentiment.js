@@ -6,7 +6,7 @@ import getTweetText from "./getTweetText";
 * @param {object} tweet
 * @returns A numer representing the text sentiment
 **/
-const getTweetSentiment = function(tweet){
+const getTweetSentiment = (tweet) => {
   const tweetSentiment = sentiment(getTweetText(tweet));
   return tweetSentiment;
 };

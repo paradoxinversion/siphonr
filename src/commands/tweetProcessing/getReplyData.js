@@ -9,7 +9,7 @@ const getReplyData = function(tweet){
     userIdStr: null,
   };
   if (tweet.in_reply_to_status_id != null){
-    replyData.statusIdStr = tweet.in_reply_to_status_id;
+    replyData.statusIdStr = tweet.in_reply_to_status_id_str;
     replyData.userIdStr = tweet.in_reply_to_user_id_str;
   }
   return replyData;

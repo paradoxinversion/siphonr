@@ -1,0 +1,4595 @@
+[
+	{
+		"created_at": "Fri Mar 23 21:10:11 +0000 2018",
+		"id": 977291443365531600,
+		"id_str": "977291443365531648",
+		"full_text": "I wrote a (very) little article on getting the ES6 import/export keywords working in @nodejs with @babeljs in about 5 minutes.\n\n#javascript #programming #webdevelopment\n\nhttps://t.co/D4rpxjBk3l",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			193
+		],
+		"entities": {
+			"hashtags": [
+				{
+					"text": "javascript",
+					"indices": [
+						128,
+						139
+					]
+				},
+				{
+					"text": "programming",
+					"indices": [
+						140,
+						152
+					]
+				},
+				{
+					"text": "webdevelopment",
+					"indices": [
+						153,
+						168
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "nodejs",
+					"name": "Node.js",
+					"id": 91985735,
+					"id_str": "91985735",
+					"indices": [
+						85,
+						92
+					]
+				},
+				{
+					"screen_name": "babeljs",
+					"name": "Babel",
+					"id": 2958823554,
+					"id_str": "2958823554",
+					"indices": [
+						98,
+						106
+					]
+				}
+			],
+			"urls": [
+				{
+					"url": "https://t.co/D4rpxjBk3l",
+					"expanded_url": "https://medium.com/@JedaiSaboteur/import-export-babel-and-node-a2e332d15673",
+					"display_url": "medium.com/@JedaiSaboteur…",
+					"indices": [
+						170,
+						193
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 2,
+		"favorite_count": 2,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Fri Mar 23 18:54:53 +0000 2018",
+		"id": 977257393884037100,
+		"id_str": "977257393884037120",
+		"full_text": "RT @paulxt: so @LAWeekly: \n\n- lied to the press about boycotters\n- lied to restaurants and the public about Essentials\n- tried to ~trade fa…",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			140
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "paulxt",
+					"name": "paul",
+					"id": 23902877,
+					"id_str": "23902877",
+					"indices": [
+						3,
+						10
+					]
+				},
+				{
+					"screen_name": "LAWeekly",
+					"name": "L.A. Weekly",
+					"id": 17718497,
+					"id_str": "17718497",
+					"indices": [
+						15,
+						24
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Fri Mar 23 18:48:31 +0000 2018",
+			"id": 977255790489800700,
+			"id_str": "977255790489800704",
+			"full_text": "so @LAWeekly: \n\n- lied to the press about boycotters\n- lied to restaurants and the public about Essentials\n- tried to ~trade favorable coverage for participation~\n- finally gave up and cancelled the event \n\nsell the paper, you spineless hacks \n\n#boycottLAWeekly",
+			"truncated": false,
+			"display_text_range": [
+				0,
+				261
+			],
+			"entities": {
+				"hashtags": [
+					{
+						"text": "boycottLAWeekly",
+						"indices": [
+							245,
+							261
+						]
+					}
+				],
+				"symbols": [],
+				"user_mentions": [
+					{
+						"screen_name": "LAWeekly",
+						"name": "L.A. Weekly",
+						"id": 17718497,
+						"id_str": "17718497",
+						"indices": [
+							3,
+							12
+						]
+					}
+				],
+				"urls": []
+			},
+			"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 23902877,
+				"id_str": "23902877",
+				"name": "paul",
+				"screen_name": "paulxt",
+				"location": "Los Angeles",
+				"description": "author of I FEEL LIKE DYING: https://t.co/XzGLB0yVLM // pxthompson at gmail dot com",
+				"url": "https://t.co/BeleFB7MrS",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/BeleFB7MrS",
+								"expanded_url": "https://www.youtube.com/watch?v=m60XKqEEnfg",
+								"display_url": "youtube.com/watch?v=m60XKq…",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": [
+							{
+								"url": "https://t.co/XzGLB0yVLM",
+								"expanded_url": "http://popularmolds.tumblr.com",
+								"display_url": "popularmolds.tumblr.com",
+								"indices": [
+									29,
+									52
+								]
+							}
+						]
+					}
+				},
+				"protected": false,
+				"followers_count": 4867,
+				"friends_count": 993,
+				"listed_count": 94,
+				"created_at": "Thu Mar 12 05:13:21 +0000 2009",
+				"favourites_count": 46216,
+				"utc_offset": -18000,
+				"time_zone": "Central Time (US & Canada)",
+				"geo_enabled": true,
+				"verified": false,
+				"statuses_count": 6820,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "1A1B1F",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/654086218473340928/_U20vnit.jpg",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/654086218473340928/_U20vnit.jpg",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/761290757059649537/484GqkeD_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/761290757059649537/484GqkeD_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/23902877/1497618442",
+				"profile_link_color": "4F8FFF",
+				"profile_sidebar_border_color": "FFFFFF",
+				"profile_sidebar_fill_color": "252429",
+				"profile_text_color": "666666",
+				"profile_use_background_image": true,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 5,
+			"favorite_count": 33,
+			"favorited": false,
+			"retweeted": true,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 5,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": true,
+		"lang": "en"
+	},
+	{
+		"created_at": "Wed Mar 21 19:02:09 +0000 2018",
+		"id": 976534444977745900,
+		"id_str": "976534444977745920",
+		"full_text": "RT @DeviOpsGirl: LADIES GET PAID!!!! \n\nhttps://t.co/q4cyPwdAVY",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			62
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "DeviOpsGirl",
+					"name": "Annette Musick",
+					"id": 746374374786117600,
+					"id_str": "746374374786117632",
+					"indices": [
+						3,
+						15
+					]
+				}
+			],
+			"urls": [
+				{
+					"url": "https://t.co/q4cyPwdAVY",
+					"expanded_url": "http://www.ladiesgetpaid.com",
+					"display_url": "ladiesgetpaid.com",
+					"indices": [
+						39,
+						62
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Wed Mar 21 18:37:05 +0000 2018",
+			"id": 976528136497066000,
+			"id_str": "976528136497065984",
+			"full_text": "LADIES GET PAID!!!! \n\nhttps://t.co/q4cyPwdAVY",
+			"truncated": false,
+			"display_text_range": [
+				0,
+				45
+			],
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [
+					{
+						"url": "https://t.co/q4cyPwdAVY",
+						"expanded_url": "http://www.ladiesgetpaid.com",
+						"display_url": "ladiesgetpaid.com",
+						"indices": [
+							22,
+							45
+						]
+					}
+				]
+			},
+			"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 746374374786117600,
+				"id_str": "746374374786117632",
+				"name": "Annette Musick",
+				"screen_name": "DeviOpsGirl",
+				"location": "Oakland, CA",
+				"description": "I read logs for breakfast. #Opslife \nI drum & sing.  Devi Genuone https://t.co/74ORsKU2LR on the ARTs",
+				"url": "https://t.co/JhMPKZZMyV",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/JhMPKZZMyV",
+								"expanded_url": "http://annettemusick.com",
+								"display_url": "annettemusick.com",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": [
+							{
+								"url": "https://t.co/74ORsKU2LR",
+								"expanded_url": "http://devigenuone.com",
+								"display_url": "devigenuone.com",
+								"indices": [
+									66,
+									89
+								]
+							}
+						]
+					}
+				},
+				"protected": false,
+				"followers_count": 76,
+				"friends_count": 136,
+				"listed_count": 4,
+				"created_at": "Fri Jun 24 16:08:12 +0000 2016",
+				"favourites_count": 199,
+				"utc_offset": -25200,
+				"time_zone": "Pacific Time (US & Canada)",
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 263,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "000000",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/928490553976676353/3utVMdYx_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/928490553976676353/3utVMdYx_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/746374374786117632/1466786936",
+				"profile_link_color": "981CEB",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "000000",
+				"profile_text_color": "000000",
+				"profile_use_background_image": false,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": true,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 3,
+			"favorite_count": 1,
+			"favorited": true,
+			"retweeted": true,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 3,
+		"favorite_count": 0,
+		"favorited": true,
+		"retweeted": true,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Mon Mar 19 19:32:55 +0000 2018",
+		"id": 975817410346287100,
+		"id_str": "975817410346287104",
+		"full_text": "@riversstreetx @feles_cat Being a TERF has nothing to do with one's sexual orientation, and everything to do with the transphobia they put out into the world.",
+		"truncated": false,
+		"display_text_range": [
+			26,
+			158
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "riversstreetx",
+					"name": "Riverstreet",
+					"id": 740927705357652000,
+					"id_str": "740927705357651968",
+					"indices": [
+						0,
+						14
+					]
+				},
+				{
+					"screen_name": "feles_cat",
+					"name": "Feles",
+					"id": 896883401885720600,
+					"id_str": "896883401885720577",
+					"indices": [
+						15,
+						25
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": 975814234058698800,
+		"in_reply_to_status_id_str": "975814234058698752",
+		"in_reply_to_user_id": 740927705357652000,
+		"in_reply_to_user_id_str": "740927705357651968",
+		"in_reply_to_screen_name": "riversstreetx",
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 2,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Mon Mar 19 19:16:35 +0000 2018",
+		"id": 975813299601207300,
+		"id_str": "975813299601207296",
+		"full_text": "@riversstreetx @feles_cat Lolwut https://t.co/HSJ6jNezE5",
+		"truncated": false,
+		"display_text_range": [
+			26,
+			32
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "riversstreetx",
+					"name": "Riverstreet",
+					"id": 740927705357652000,
+					"id_str": "740927705357651968",
+					"indices": [
+						0,
+						14
+					]
+				},
+				{
+					"screen_name": "feles_cat",
+					"name": "Feles",
+					"id": 896883401885720600,
+					"id_str": "896883401885720577",
+					"indices": [
+						15,
+						25
+					]
+				}
+			],
+			"urls": [],
+			"media": [
+				{
+					"id": 975813291346772000,
+					"id_str": "975813291346771973",
+					"indices": [
+						33,
+						56
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/DYrJBLXUQAUfYn8.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DYrJBLXUQAUfYn8.jpg",
+					"url": "https://t.co/HSJ6jNezE5",
+					"display_url": "pic.twitter.com/HSJ6jNezE5",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/975813299601207296/photo/1",
+					"type": "photo",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 300,
+							"h": 188,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 300,
+							"h": 188,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 300,
+							"h": 188,
+							"resize": "fit"
+						}
+					}
+				}
+			]
+		},
+		"extended_entities": {
+			"media": [
+				{
+					"id": 975813291346772000,
+					"id_str": "975813291346771973",
+					"indices": [
+						33,
+						56
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/DYrJBLXUQAUfYn8.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DYrJBLXUQAUfYn8.jpg",
+					"url": "https://t.co/HSJ6jNezE5",
+					"display_url": "pic.twitter.com/HSJ6jNezE5",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/975813299601207296/photo/1",
+					"type": "animated_gif",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 300,
+							"h": 188,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 300,
+							"h": 188,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 300,
+							"h": 188,
+							"resize": "fit"
+						}
+					},
+					"video_info": {
+						"aspect_ratio": [
+							75,
+							47
+						],
+						"variants": [
+							{
+								"bitrate": 0,
+								"content_type": "video/mp4",
+								"url": "https://video.twimg.com/tweet_video/DYrJBLXUQAUfYn8.mp4"
+							}
+						]
+					}
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": 975532237172236300,
+		"in_reply_to_status_id_str": "975532237172236288",
+		"in_reply_to_user_id": 740927705357652000,
+		"in_reply_to_user_id_str": "740927705357651968",
+		"in_reply_to_screen_name": "riversstreetx",
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 2,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "fr"
+	},
+	{
+		"created_at": "Mon Mar 19 16:56:00 +0000 2018",
+		"id": 975777921162920000,
+		"id_str": "975777921162919936",
+		"full_text": "RT @geyoncee_: Two Black students were racially profiled and publicly assaulted by Loyola's campus police. This is unacceptable and we will…",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			140
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "geyoncee_",
+					"name": "gianna",
+					"id": 1468715370,
+					"id_str": "1468715370",
+					"indices": [
+						3,
+						13
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Sun Feb 25 00:52:29 +0000 2018",
+			"id": 967562912691900400,
+			"id_str": "967562912691900416",
+			"full_text": "Two Black students were racially profiled and publicly assaulted by Loyola's campus police. This is unacceptable and we will be retaliating. Share this so Loyola won't be able to bury it. https://t.co/9jyiN6ePed",
+			"truncated": false,
+			"display_text_range": [
+				0,
+				187
+			],
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [],
+				"media": [
+					{
+						"id": 967562209491669000,
+						"id_str": "967562209491668997",
+						"indices": [
+							188,
+							211
+						],
+						"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/967562209491668997/pu/img/qZfBfw7xv0TVLef9.jpg",
+						"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/967562209491668997/pu/img/qZfBfw7xv0TVLef9.jpg",
+						"url": "https://t.co/9jyiN6ePed",
+						"display_url": "pic.twitter.com/9jyiN6ePed",
+						"expanded_url": "https://twitter.com/geyoncee_/status/967562912691900416/video/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"medium": {
+								"w": 540,
+								"h": 960,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 383,
+								"h": 680,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 540,
+								"h": 960,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"extended_entities": {
+				"media": [
+					{
+						"id": 967562209491669000,
+						"id_str": "967562209491668997",
+						"indices": [
+							188,
+							211
+						],
+						"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/967562209491668997/pu/img/qZfBfw7xv0TVLef9.jpg",
+						"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/967562209491668997/pu/img/qZfBfw7xv0TVLef9.jpg",
+						"url": "https://t.co/9jyiN6ePed",
+						"display_url": "pic.twitter.com/9jyiN6ePed",
+						"expanded_url": "https://twitter.com/geyoncee_/status/967562912691900416/video/1",
+						"type": "video",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"medium": {
+								"w": 540,
+								"h": 960,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 383,
+								"h": 680,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 540,
+								"h": 960,
+								"resize": "fit"
+							}
+						},
+						"video_info": {
+							"aspect_ratio": [
+								9,
+								16
+							],
+							"duration_millis": 140000,
+							"variants": [
+								{
+									"bitrate": 256000,
+									"content_type": "video/mp4",
+									"url": "https://video.twimg.com/ext_tw_video/967562209491668997/pu/vid/180x320/JMbRheoH2NEXTN1v.mp4"
+								},
+								{
+									"content_type": "application/x-mpegURL",
+									"url": "https://video.twimg.com/ext_tw_video/967562209491668997/pu/pl/uh_kgo3_VIQC21hG.m3u8"
+								},
+								{
+									"bitrate": 832000,
+									"content_type": "video/mp4",
+									"url": "https://video.twimg.com/ext_tw_video/967562209491668997/pu/vid/360x640/LrwWtc77LTG4L-Iv.mp4"
+								}
+							]
+						},
+						"additional_media_info": {
+							"monetizable": false
+						}
+					}
+				]
+			},
+			"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 1468715370,
+				"id_str": "1468715370",
+				"name": "gianna",
+				"screen_name": "geyoncee_",
+				"location": "MKE",
+				"description": "LUC '19",
+				"url": null,
+				"entities": {
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 835,
+				"friends_count": 280,
+				"listed_count": 38,
+				"created_at": "Thu May 30 02:20:24 +0000 2013",
+				"favourites_count": 5289,
+				"utc_offset": -25200,
+				"time_zone": "Pacific Time (US & Canada)",
+				"geo_enabled": true,
+				"verified": false,
+				"statuses_count": 7088,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "C0DEED",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/973448954196226053/S6wmo1Qt_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/973448954196226053/S6wmo1Qt_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/1468715370/1504329830",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": true,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 90274,
+			"favorite_count": 99127,
+			"favorited": false,
+			"retweeted": true,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 90274,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": true,
+		"lang": "en"
+	},
+	{
+		"created_at": "Mon Mar 19 16:51:53 +0000 2018",
+		"id": 975776886029656000,
+		"id_str": "975776886029656064",
+		"full_text": "@8spinach There are like 8-10 up at Civic Center Bart, probably more in other stations, I'm guessing. This is definitely the first I've seen of them. Shady bart ads are on a roll this year.",
+		"truncated": false,
+		"display_text_range": [
+			10,
+			189
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "8spinach",
+					"name": "CRIME LICH ☭🏴: THE CRIME WHO LOVED ME",
+					"id": 19123162,
+					"id_str": "19123162",
+					"indices": [
+						0,
+						9
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": 975776072196345900,
+		"in_reply_to_status_id_str": "975776072196345857",
+		"in_reply_to_user_id": 19123162,
+		"in_reply_to_user_id_str": "19123162",
+		"in_reply_to_screen_name": "8spinach",
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 1,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Mon Mar 19 16:46:23 +0000 2018",
+		"id": 975775501531865100,
+		"id_str": "975775501531865093",
+		"full_text": "RT @Nifflas: Did you know that in the Japanese version of A Link to the Past only allows four letters in the character naming screen, makin…",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			140
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "Nifflas",
+					"name": "Nifflas",
+					"id": 1031379493,
+					"id_str": "1031379493",
+					"indices": [
+						3,
+						11
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Sun Mar 18 21:37:52 +0000 2018",
+			"id": 975486470273282000,
+			"id_str": "975486470273282049",
+			"full_text": "Did you know that in the Japanese version of A Link to the Past only allows four letters in the character naming screen, making it the only known game where the canonical name of the protagonist cannot be actually used? https://t.co/vnhDnTXgVK",
+			"truncated": false,
+			"display_text_range": [
+				0,
+				219
+			],
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [],
+				"media": [
+					{
+						"id": 975486015837298700,
+						"id_str": "975486015837298694",
+						"indices": [
+							220,
+							243
+						],
+						"media_url": "http://pbs.twimg.com/media/DYmfXPFX4AYOAT1.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/DYmfXPFX4AYOAT1.jpg",
+						"url": "https://t.co/vnhDnTXgVK",
+						"display_url": "pic.twitter.com/vnhDnTXgVK",
+						"expanded_url": "https://twitter.com/Nifflas/status/975486470273282049/photo/1",
+						"type": "photo",
+						"sizes": {
+							"large": {
+								"w": 606,
+								"h": 526,
+								"resize": "fit"
+							},
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"medium": {
+								"w": 606,
+								"h": 526,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 606,
+								"h": 526,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"extended_entities": {
+				"media": [
+					{
+						"id": 975486015837298700,
+						"id_str": "975486015837298694",
+						"indices": [
+							220,
+							243
+						],
+						"media_url": "http://pbs.twimg.com/media/DYmfXPFX4AYOAT1.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/DYmfXPFX4AYOAT1.jpg",
+						"url": "https://t.co/vnhDnTXgVK",
+						"display_url": "pic.twitter.com/vnhDnTXgVK",
+						"expanded_url": "https://twitter.com/Nifflas/status/975486470273282049/photo/1",
+						"type": "photo",
+						"sizes": {
+							"large": {
+								"w": 606,
+								"h": 526,
+								"resize": "fit"
+							},
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"medium": {
+								"w": 606,
+								"h": 526,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 606,
+								"h": 526,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 1031379493,
+				"id_str": "1031379493",
+				"name": "Nifflas",
+				"screen_name": "Nifflas",
+				"location": "",
+				"description": "I created games! Now I'm into algorithmic music.",
+				"url": "http://t.co/kY6hWgPq",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "http://t.co/kY6hWgPq",
+								"expanded_url": "http://nifflas.ni2.se",
+								"display_url": "nifflas.ni2.se",
+								"indices": [
+									0,
+									20
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 3634,
+				"friends_count": 428,
+				"listed_count": 92,
+				"created_at": "Sun Dec 23 21:28:41 +0000 2012",
+				"favourites_count": 529,
+				"utc_offset": 3600,
+				"time_zone": "Amsterdam",
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 14220,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "22AB6B",
+				"profile_background_image_url": "http://abs.twimg.com/images/themes/theme16/bg.gif",
+				"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme16/bg.gif",
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/946668217333927936/kdvc-zmn_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/946668217333927936/kdvc-zmn_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/1031379493/1502234783",
+				"profile_link_color": "FF0080",
+				"profile_sidebar_border_color": "FFFFFF",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": false,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 1010,
+			"favorite_count": 2394,
+			"favorited": false,
+			"retweeted": true,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 1010,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": true,
+		"lang": "en"
+	},
+	{
+		"created_at": "Mon Mar 19 16:41:02 +0000 2018",
+		"id": 975774156720504800,
+		"id_str": "975774156720504832",
+		"full_text": "Thefuck is this scaremongery nationalistic bullshit? #SanFrancisco #TechJobs #Propaganda https://t.co/bdpwaayaWM",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			88
+		],
+		"entities": {
+			"hashtags": [
+				{
+					"text": "SanFrancisco",
+					"indices": [
+						53,
+						66
+					]
+				},
+				{
+					"text": "TechJobs",
+					"indices": [
+						67,
+						76
+					]
+				},
+				{
+					"text": "Propaganda",
+					"indices": [
+						77,
+						88
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [],
+			"media": [
+				{
+					"id": 975774139389653000,
+					"id_str": "975774139389652992",
+					"indices": [
+						89,
+						112
+					],
+					"media_url": "http://pbs.twimg.com/media/DYqlaO9VMAANo-E.jpg",
+					"media_url_https": "https://pbs.twimg.com/media/DYqlaO9VMAANo-E.jpg",
+					"url": "https://t.co/bdpwaayaWM",
+					"display_url": "pic.twitter.com/bdpwaayaWM",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/975774156720504832/photo/1",
+					"type": "photo",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 510,
+							"h": 680,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 1536,
+							"h": 2048,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 900,
+							"h": 1200,
+							"resize": "fit"
+						}
+					}
+				}
+			]
+		},
+		"extended_entities": {
+			"media": [
+				{
+					"id": 975774139389653000,
+					"id_str": "975774139389652992",
+					"indices": [
+						89,
+						112
+					],
+					"media_url": "http://pbs.twimg.com/media/DYqlaO9VMAANo-E.jpg",
+					"media_url_https": "https://pbs.twimg.com/media/DYqlaO9VMAANo-E.jpg",
+					"url": "https://t.co/bdpwaayaWM",
+					"display_url": "pic.twitter.com/bdpwaayaWM",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/975774156720504832/photo/1",
+					"type": "photo",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 510,
+							"h": 680,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 1536,
+							"h": 2048,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 900,
+							"h": 1200,
+							"resize": "fit"
+						}
+					}
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 1,
+		"favorite_count": 1,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Mon Mar 19 16:26:53 +0000 2018",
+		"id": 975770594330333200,
+		"id_str": "975770594330333184",
+		"full_text": "https://t.co/OPHVBsW5Hk",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			0
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [],
+			"media": [
+				{
+					"id": 975770586432512000,
+					"id_str": "975770586432512000",
+					"indices": [
+						0,
+						23
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/DYqiLbKVoAAFCuG.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DYqiLbKVoAAFCuG.jpg",
+					"url": "https://t.co/OPHVBsW5Hk",
+					"display_url": "pic.twitter.com/OPHVBsW5Hk",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/975770594330333184/photo/1",
+					"type": "photo",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 338,
+							"h": 190,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 338,
+							"h": 190,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 338,
+							"h": 190,
+							"resize": "fit"
+						}
+					}
+				}
+			]
+		},
+		"extended_entities": {
+			"media": [
+				{
+					"id": 975770586432512000,
+					"id_str": "975770586432512000",
+					"indices": [
+						0,
+						23
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/DYqiLbKVoAAFCuG.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DYqiLbKVoAAFCuG.jpg",
+					"url": "https://t.co/OPHVBsW5Hk",
+					"display_url": "pic.twitter.com/OPHVBsW5Hk",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/975770594330333184/photo/1",
+					"type": "animated_gif",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 338,
+							"h": 190,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 338,
+							"h": 190,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 338,
+							"h": 190,
+							"resize": "fit"
+						}
+					},
+					"video_info": {
+						"aspect_ratio": [
+							169,
+							95
+						],
+						"variants": [
+							{
+								"bitrate": 0,
+								"content_type": "video/mp4",
+								"url": "https://video.twimg.com/tweet_video/DYqiLbKVoAAFCuG.mp4"
+							}
+						]
+					}
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": 975770463828758500,
+		"in_reply_to_status_id_str": "975770463828758528",
+		"in_reply_to_user_id": 390243569,
+		"in_reply_to_user_id_str": "390243569",
+		"in_reply_to_screen_name": "JedaiSaboteur",
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "und"
+	},
+	{
+		"created_at": "Mon Mar 19 16:26:22 +0000 2018",
+		"id": 975770463828758500,
+		"id_str": "975770463828758528",
+		"full_text": "......... https://t.co/I7p21X5Ksv",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			9
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [
+				{
+					"url": "https://t.co/I7p21X5Ksv",
+					"expanded_url": "https://twitter.com/NuclearTakes/status/975749153472090112",
+					"display_url": "twitter.com/NuclearTakes/s…",
+					"indices": [
+						10,
+						33
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": true,
+		"quoted_status_id": 975749153472090100,
+		"quoted_status_id_str": "975749153472090112",
+		"quoted_status": {
+			"created_at": "Mon Mar 19 15:01:41 +0000 2018",
+			"id": 975749153472090100,
+			"id_str": "975749153472090112",
+			"full_text": "https://t.co/jWtBkD3Qbz",
+			"truncated": false,
+			"display_text_range": [
+				0,
+				0
+			],
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [],
+				"media": [
+					{
+						"id": 975749142604529700,
+						"id_str": "975749142604529669",
+						"indices": [
+							0,
+							23
+						],
+						"media_url": "http://pbs.twimg.com/media/DYqOrOrVwAUpzFI.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/DYqOrOrVwAUpzFI.jpg",
+						"url": "https://t.co/jWtBkD3Qbz",
+						"display_url": "pic.twitter.com/jWtBkD3Qbz",
+						"expanded_url": "https://twitter.com/NuclearTakes/status/975749153472090112/photo/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"medium": {
+								"w": 1200,
+								"h": 728,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 680,
+								"h": 413,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 1244,
+								"h": 755,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"extended_entities": {
+				"media": [
+					{
+						"id": 975749142604529700,
+						"id_str": "975749142604529669",
+						"indices": [
+							0,
+							23
+						],
+						"media_url": "http://pbs.twimg.com/media/DYqOrOrVwAUpzFI.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/DYqOrOrVwAUpzFI.jpg",
+						"url": "https://t.co/jWtBkD3Qbz",
+						"display_url": "pic.twitter.com/jWtBkD3Qbz",
+						"expanded_url": "https://twitter.com/NuclearTakes/status/975749153472090112/photo/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"medium": {
+								"w": 1200,
+								"h": 728,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 680,
+								"h": 413,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 1244,
+								"h": 755,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 853092074048147500,
+				"id_str": "853092074048147456",
+				"name": "Gourmet Hot Takes",
+				"screen_name": "NuclearTakes",
+				"location": "the internet's septic tank",
+				"description": "presented without comment, courtesy of @killeveryhetero & dubs. dietary restrictions? try @ButNoPotato! ＊ DMs are always open ＊",
+				"url": "https://t.co/Es7Yg2OKIW",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "https://t.co/Es7Yg2OKIW",
+								"expanded_url": "https://www.patreon.com/NuclearTakes",
+								"display_url": "patreon.com/NuclearTakes",
+								"indices": [
+									0,
+									23
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 62830,
+				"friends_count": 139,
+				"listed_count": 235,
+				"created_at": "Sat Apr 15 03:46:15 +0000 2017",
+				"favourites_count": 1889,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 2202,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "F5F8FA",
+				"profile_background_image_url": null,
+				"profile_background_image_url_https": null,
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/956679768119771136/0B3y1z3I_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/956679768119771136/0B3y1z3I_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/853092074048147456/1514680130",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": true,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 508,
+			"favorite_count": 2434,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "und"
+		},
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "und"
+	},
+	{
+		"created_at": "Mon Mar 19 16:24:45 +0000 2018",
+		"id": 975770056641556500,
+		"id_str": "975770056641556480",
+		"full_text": "@AmazonChique Entitlement squad... Assemble, I guess?\n\nIt rubs me pretty bad too, but there are a lot of behaviors I want to stand on a lawn and yell at people about.\n\nI just need a lawn first.",
+		"truncated": false,
+		"display_text_range": [
+			14,
+			193
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "AmazonChique",
+					"name": "Crystal Frasier",
+					"id": 3320188886,
+					"id_str": "3320188886",
+					"indices": [
+						0,
+						13
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": 975767390343503900,
+		"in_reply_to_status_id_str": "975767390343503872",
+		"in_reply_to_user_id": 3320188886,
+		"in_reply_to_user_id_str": "3320188886",
+		"in_reply_to_screen_name": "AmazonChique",
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 2,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Mon Mar 19 16:22:28 +0000 2018",
+		"id": 975769483632566300,
+		"id_str": "975769483632566272",
+		"full_text": "*strikes tuning fork*\n\n🎶 Hooooolyyyyyy shiiiiit 🎶 https://t.co/8u3uivK0Tv",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			49
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [
+				{
+					"url": "https://t.co/8u3uivK0Tv",
+					"expanded_url": "https://twitter.com/spindlypete/status/975427857307463680",
+					"display_url": "twitter.com/spindlypete/st…",
+					"indices": [
+						50,
+						73
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": true,
+		"quoted_status_id": 975427857307463700,
+		"quoted_status_id_str": "975427857307463680",
+		"quoted_status": {
+			"created_at": "Sun Mar 18 17:44:58 +0000 2018",
+			"id": 975427857307463700,
+			"id_str": "975427857307463680",
+			"full_text": "THIS WEBSITE COSTS ZERO DOLLARS https://t.co/eN3fiIUiMv",
+			"truncated": false,
+			"display_text_range": [
+				0,
+				31
+			],
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [],
+				"media": [
+					{
+						"id": 975427851343118300,
+						"id_str": "975427851343118336",
+						"indices": [
+							32,
+							55
+						],
+						"media_url": "http://pbs.twimg.com/media/DYlqdndUQAA4Cn8.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/DYlqdndUQAA4Cn8.jpg",
+						"url": "https://t.co/eN3fiIUiMv",
+						"display_url": "pic.twitter.com/eN3fiIUiMv",
+						"expanded_url": "https://twitter.com/spindlypete/status/975427857307463680/photo/1",
+						"type": "photo",
+						"sizes": {
+							"small": {
+								"w": 608,
+								"h": 680,
+								"resize": "fit"
+							},
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"large": {
+								"w": 1241,
+								"h": 1387,
+								"resize": "fit"
+							},
+							"medium": {
+								"w": 1074,
+								"h": 1200,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"extended_entities": {
+				"media": [
+					{
+						"id": 975427851343118300,
+						"id_str": "975427851343118336",
+						"indices": [
+							32,
+							55
+						],
+						"media_url": "http://pbs.twimg.com/media/DYlqdndUQAA4Cn8.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/DYlqdndUQAA4Cn8.jpg",
+						"url": "https://t.co/eN3fiIUiMv",
+						"display_url": "pic.twitter.com/eN3fiIUiMv",
+						"expanded_url": "https://twitter.com/spindlypete/status/975427857307463680/photo/1",
+						"type": "photo",
+						"sizes": {
+							"small": {
+								"w": 608,
+								"h": 680,
+								"resize": "fit"
+							},
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"large": {
+								"w": 1241,
+								"h": 1387,
+								"resize": "fit"
+							},
+							"medium": {
+								"w": 1074,
+								"h": 1200,
+								"resize": "fit"
+							}
+						}
+					},
+					{
+						"id": 975427851347349500,
+						"id_str": "975427851347349504",
+						"indices": [
+							32,
+							55
+						],
+						"media_url": "http://pbs.twimg.com/media/DYlqdneU0AAP4fc.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/DYlqdneU0AAP4fc.jpg",
+						"url": "https://t.co/eN3fiIUiMv",
+						"display_url": "pic.twitter.com/eN3fiIUiMv",
+						"expanded_url": "https://twitter.com/spindlypete/status/975427857307463680/photo/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"small": {
+								"w": 680,
+								"h": 492,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 1241,
+								"h": 898,
+								"resize": "fit"
+							},
+							"medium": {
+								"w": 1200,
+								"h": 868,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 822927408244236300,
+				"id_str": "822927408244236288",
+				"name": "soor ploom",
+				"screen_name": "spindlypete",
+				"location": "occupied chinook territory",
+				"description": "she/her. rabelaisian gastrolater. proletarian militant. full-blown case of what is known as “jellybones”",
+				"url": null,
+				"entities": {
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 6206,
+				"friends_count": 722,
+				"listed_count": 25,
+				"created_at": "Sat Jan 21 22:02:38 +0000 2017",
+				"favourites_count": 45694,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": true,
+				"verified": false,
+				"statuses_count": 30955,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "F5F8FA",
+				"profile_background_image_url": null,
+				"profile_background_image_url_https": null,
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/975456500490518528/Bv2mxbZL_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/975456500490518528/Bv2mxbZL_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/822927408244236288/1519104065",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 16788,
+			"favorite_count": 65464,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Sat Mar 17 19:01:31 +0000 2018",
+		"id": 975084734073028600,
+		"id_str": "975084734073028608",
+		"full_text": "This image is cursed #pokemon #gaming #videogames \n\nhttps://t.co/YWQfdAMONM",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			75
+		],
+		"entities": {
+			"hashtags": [
+				{
+					"text": "pokemon",
+					"indices": [
+						21,
+						29
+					]
+				},
+				{
+					"text": "gaming",
+					"indices": [
+						30,
+						37
+					]
+				},
+				{
+					"text": "videogames",
+					"indices": [
+						38,
+						49
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [
+				{
+					"url": "https://t.co/YWQfdAMONM",
+					"expanded_url": "https://www.reddit.com/r/gaming/comments/850u27/good_ol_digimon/?utm_source=reddit-android",
+					"display_url": "reddit.com/r/gaming/comme…",
+					"indices": [
+						52,
+						75
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Sat Mar 17 18:39:04 +0000 2018",
+		"id": 975079082684657700,
+		"id_str": "975079082684657664",
+		"full_text": "RT @AltRightLeak: Of course the twitter raids were carried out with the same deceptive measures like on Youtube. General \"Jean D'Arc\", the…",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			139
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "AltRightLeak",
+					"name": "Alt Right Leaks",
+					"id": 959845257105039400,
+					"id_str": "959845257105039360",
+					"indices": [
+						3,
+						16
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Sat Mar 17 18:06:09 +0000 2018",
+			"id": 975070800758935600,
+			"id_str": "975070800758935553",
+			"full_text": "Of course the twitter raids were carried out with the same deceptive measures like on Youtube. General \"Jean D'Arc\", the highest ranking woman on RG, gives instructions on how to create sock puppets for twitter. Seems like some users haven't done their homework. https://t.co/RJNkERUAqA",
+			"truncated": false,
+			"display_text_range": [
+				0,
+				262
+			],
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [],
+				"media": [
+					{
+						"id": 975070217608093700,
+						"id_str": "975070217608093696",
+						"indices": [
+							263,
+							286
+						],
+						"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/975070217608093696/pu/img/X4plepYKL26-HxsX.jpg",
+						"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/975070217608093696/pu/img/X4plepYKL26-HxsX.jpg",
+						"url": "https://t.co/RJNkERUAqA",
+						"display_url": "pic.twitter.com/RJNkERUAqA",
+						"expanded_url": "https://twitter.com/AltRightLeak/status/975070800758935553/video/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"medium": {
+								"w": 1200,
+								"h": 675,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 680,
+								"h": 383,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 1280,
+								"h": 720,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"extended_entities": {
+				"media": [
+					{
+						"id": 975070217608093700,
+						"id_str": "975070217608093696",
+						"indices": [
+							263,
+							286
+						],
+						"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/975070217608093696/pu/img/X4plepYKL26-HxsX.jpg",
+						"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/975070217608093696/pu/img/X4plepYKL26-HxsX.jpg",
+						"url": "https://t.co/RJNkERUAqA",
+						"display_url": "pic.twitter.com/RJNkERUAqA",
+						"expanded_url": "https://twitter.com/AltRightLeak/status/975070800758935553/video/1",
+						"type": "video",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"medium": {
+								"w": 1200,
+								"h": 675,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 680,
+								"h": 383,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 1280,
+								"h": 720,
+								"resize": "fit"
+							}
+						},
+						"video_info": {
+							"aspect_ratio": [
+								16,
+								9
+							],
+							"duration_millis": 71238,
+							"variants": [
+								{
+									"content_type": "application/x-mpegURL",
+									"url": "https://video.twimg.com/ext_tw_video/975070217608093696/pu/pl/4dfimzHyc1-99Lpm.m3u8"
+								},
+								{
+									"bitrate": 832000,
+									"content_type": "video/mp4",
+									"url": "https://video.twimg.com/ext_tw_video/975070217608093696/pu/vid/640x360/gOk8NHUkSDfNz2PN.mp4"
+								},
+								{
+									"bitrate": 2176000,
+									"content_type": "video/mp4",
+									"url": "https://video.twimg.com/ext_tw_video/975070217608093696/pu/vid/1280x720/UPe_EaapFTLQvjc7.mp4"
+								},
+								{
+									"bitrate": 256000,
+									"content_type": "video/mp4",
+									"url": "https://video.twimg.com/ext_tw_video/975070217608093696/pu/vid/320x180/lARZPLXZ1wEmzqOQ.mp4"
+								}
+							]
+						},
+						"additional_media_info": {
+							"monetizable": false
+						}
+					}
+				]
+			},
+			"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 959845257105039400,
+				"id_str": "959845257105039360",
+				"name": "Alt Right Leaks",
+				"screen_name": "AltRightLeak",
+				"location": "",
+				"description": "",
+				"url": null,
+				"entities": {
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 3659,
+				"friends_count": 1,
+				"listed_count": 20,
+				"created_at": "Sat Feb 03 17:45:17 +0000 2018",
+				"favourites_count": 4,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 95,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "F5F8FA",
+				"profile_background_image_url": null,
+				"profile_background_image_url_https": null,
+				"profile_background_tile": false,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/963473942882140160/tTCz8KyC_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/963473942882140160/tTCz8KyC_normal.jpg",
+				"profile_link_color": "1DA1F2",
+				"profile_sidebar_border_color": "C0DEED",
+				"profile_sidebar_fill_color": "DDEEF6",
+				"profile_text_color": "333333",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": true,
+				"default_profile_image": false,
+				"following": true,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 10,
+			"favorite_count": 26,
+			"favorited": true,
+			"retweeted": true,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 10,
+		"favorite_count": 0,
+		"favorited": true,
+		"retweeted": true,
+		"lang": "en"
+	},
+	{
+		"created_at": "Sat Mar 17 17:42:05 +0000 2018",
+		"id": 975064742204067800,
+		"id_str": "975064742204067845",
+		"full_text": "@M_J_Robbins @justmarkup I do not envy you :p",
+		"truncated": false,
+		"display_text_range": [
+			25,
+			45
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "M_J_Robbins",
+					"name": "Mark Robbins",
+					"id": 2164581984,
+					"id_str": "2164581984",
+					"indices": [
+						0,
+						12
+					]
+				},
+				{
+					"screen_name": "justmarkup",
+					"name": "Michael Scharnagl",
+					"id": 20070025,
+					"id_str": "20070025",
+					"indices": [
+						13,
+						24
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": 974626897572360200,
+		"in_reply_to_status_id_str": "974626897572360193",
+		"in_reply_to_user_id": 2164581984,
+		"in_reply_to_user_id_str": "2164581984",
+		"in_reply_to_screen_name": "M_J_Robbins",
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 8,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Fri Mar 16 18:31:57 +0000 2018",
+		"id": 974714904606261200,
+		"id_str": "974714904606261248",
+		"full_text": "Has anyone noticed logitech's m590 mouse being really finicky if you use it too close to a metal apple keyboard?\n\nMy mouse has been spazzing out when I work at my desk and I think my keyboard might be to blame :/",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			212
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Fri Mar 16 18:18:11 +0000 2018",
+		"id": 974711440706687000,
+		"id_str": "974711440706686976",
+		"full_text": "Never really listened to them.\n\n#TheBeatlesIn5Words https://t.co/FGm29lWxOB",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			51
+		],
+		"entities": {
+			"hashtags": [
+				{
+					"text": "TheBeatlesIn5Words",
+					"indices": [
+						32,
+						51
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [],
+			"media": [
+				{
+					"id": 974711435195330600,
+					"id_str": "974711435195330562",
+					"indices": [
+						52,
+						75
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/DYbe4tVUMAIop4_.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DYbe4tVUMAIop4_.jpg",
+					"url": "https://t.co/FGm29lWxOB",
+					"display_url": "pic.twitter.com/FGm29lWxOB",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/974711440706686976/photo/1",
+					"type": "photo",
+					"sizes": {
+						"large": {
+							"w": 200,
+							"h": 114,
+							"resize": "fit"
+						},
+						"thumb": {
+							"w": 114,
+							"h": 114,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 200,
+							"h": 114,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 200,
+							"h": 114,
+							"resize": "fit"
+						}
+					}
+				}
+			]
+		},
+		"extended_entities": {
+			"media": [
+				{
+					"id": 974711435195330600,
+					"id_str": "974711435195330562",
+					"indices": [
+						52,
+						75
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/DYbe4tVUMAIop4_.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DYbe4tVUMAIop4_.jpg",
+					"url": "https://t.co/FGm29lWxOB",
+					"display_url": "pic.twitter.com/FGm29lWxOB",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/974711440706686976/photo/1",
+					"type": "animated_gif",
+					"sizes": {
+						"large": {
+							"w": 200,
+							"h": 114,
+							"resize": "fit"
+						},
+						"thumb": {
+							"w": 114,
+							"h": 114,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 200,
+							"h": 114,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 200,
+							"h": 114,
+							"resize": "fit"
+						}
+					},
+					"video_info": {
+						"aspect_ratio": [
+							100,
+							57
+						],
+						"variants": [
+							{
+								"bitrate": 0,
+								"content_type": "video/mp4",
+								"url": "https://video.twimg.com/tweet_video/DYbe4tVUMAIop4_.mp4"
+							}
+						]
+					}
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Fri Mar 16 17:00:47 +0000 2018",
+		"id": 974691964003086300,
+		"id_str": "974691964003086336",
+		"full_text": "@queer_queenie  https://t.co/buyazOXQf0",
+		"truncated": false,
+		"display_text_range": [
+			15,
+			15
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "queer_queenie",
+					"name": "Queenie 🌕",
+					"id": 2612333707,
+					"id_str": "2612333707",
+					"indices": [
+						0,
+						14
+					]
+				}
+			],
+			"urls": [],
+			"media": [
+				{
+					"id": 974691956210131000,
+					"id_str": "974691956210130944",
+					"indices": [
+						16,
+						39
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/DYbNK4dV4AA0vRj.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DYbNK4dV4AA0vRj.jpg",
+					"url": "https://t.co/buyazOXQf0",
+					"display_url": "pic.twitter.com/buyazOXQf0",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/974691964003086336/photo/1",
+					"type": "photo",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 220,
+							"h": 152,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 220,
+							"h": 152,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 220,
+							"h": 152,
+							"resize": "fit"
+						}
+					}
+				}
+			]
+		},
+		"extended_entities": {
+			"media": [
+				{
+					"id": 974691956210131000,
+					"id_str": "974691956210130944",
+					"indices": [
+						16,
+						39
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/DYbNK4dV4AA0vRj.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/DYbNK4dV4AA0vRj.jpg",
+					"url": "https://t.co/buyazOXQf0",
+					"display_url": "pic.twitter.com/buyazOXQf0",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/974691964003086336/photo/1",
+					"type": "animated_gif",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 220,
+							"h": 152,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 220,
+							"h": 152,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 220,
+							"h": 152,
+							"resize": "fit"
+						}
+					},
+					"video_info": {
+						"aspect_ratio": [
+							55,
+							38
+						],
+						"variants": [
+							{
+								"bitrate": 0,
+								"content_type": "video/mp4",
+								"url": "https://video.twimg.com/tweet_video/DYbNK4dV4AA0vRj.mp4"
+							}
+						]
+					}
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": 974689562982105100,
+		"in_reply_to_status_id_str": "974689562982105088",
+		"in_reply_to_user_id": 2612333707,
+		"in_reply_to_user_id_str": "2612333707",
+		"in_reply_to_screen_name": "queer_queenie",
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 8,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "und"
+	},
+	{
+		"created_at": "Fri Mar 16 16:25:46 +0000 2018",
+		"id": 974683152059789300,
+		"id_str": "974683152059789312",
+		"full_text": "@sqiouyilu Oooooooh kay then",
+		"truncated": false,
+		"display_text_range": [
+			11,
+			28
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "sqiouyilu",
+					"name": "S. Qiouyi Lu 🌱 陸秋逸 🌸✨ five-star bespoke yelling",
+					"id": 2923110907,
+					"id_str": "2923110907",
+					"indices": [
+						0,
+						10
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": 974097656757682200,
+		"in_reply_to_status_id_str": "974097656757682179",
+		"in_reply_to_user_id": 2923110907,
+		"in_reply_to_user_id_str": "2923110907",
+		"in_reply_to_screen_name": "sqiouyilu",
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Fri Mar 16 16:21:22 +0000 2018",
+		"id": 974682045208191000,
+		"id_str": "974682045208190976",
+		"full_text": "@CaseyExplosion What about just a ninja style black egg?\n\nArguably better for the environment, and someone gets to pull a ninja move.",
+		"truncated": false,
+		"display_text_range": [
+			16,
+			133
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "CaseyExplosion",
+					"name": "Here Comes a Fake Sloth",
+					"id": 1077339504,
+					"id_str": "1077339504",
+					"indices": [
+						0,
+						15
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": 974657150927691800,
+		"in_reply_to_status_id_str": "974657150927691776",
+		"in_reply_to_user_id": 1077339504,
+		"in_reply_to_user_id_str": "1077339504",
+		"in_reply_to_screen_name": "CaseyExplosion",
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Fri Mar 16 16:17:17 +0000 2018",
+		"id": 974681014109839400,
+		"id_str": "974681014109839361",
+		"full_text": "RT @FranzDiego: Today in Uptown Minneapolis:\n\nH&amp;M - we won't pay graffiti artists for their art that we use in our advertising \n\nGraffiti a…",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			144
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [
+				{
+					"screen_name": "FranzDiego",
+					"name": "Glistening✨✨✨",
+					"id": 60340258,
+					"id_str": "60340258",
+					"indices": [
+						3,
+						14
+					]
+				}
+			],
+			"urls": []
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"created_at": "Thu Mar 15 20:33:52 +0000 2018",
+			"id": 974383197852176400,
+			"id_str": "974383197852176385",
+			"full_text": "Today in Uptown Minneapolis:\n\nH&amp;M - we won't pay graffiti artists for their art that we use in our advertising \n\nGraffiti artists - ok then https://t.co/OvzjRQvaVE",
+			"truncated": false,
+			"display_text_range": [
+				0,
+				143
+			],
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [],
+				"media": [
+					{
+						"id": 974383191577346000,
+						"id_str": "974383191577346048",
+						"indices": [
+							144,
+							167
+						],
+						"media_url": "http://pbs.twimg.com/media/DYW0WakUQAAFAay.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/DYW0WakUQAAFAay.jpg",
+						"url": "https://t.co/OvzjRQvaVE",
+						"display_url": "pic.twitter.com/OvzjRQvaVE",
+						"expanded_url": "https://twitter.com/FranzDiego/status/974383197852176385/photo/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"medium": {
+								"w": 960,
+								"h": 540,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 680,
+								"h": 383,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 960,
+								"h": 540,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"extended_entities": {
+				"media": [
+					{
+						"id": 974383191577346000,
+						"id_str": "974383191577346048",
+						"indices": [
+							144,
+							167
+						],
+						"media_url": "http://pbs.twimg.com/media/DYW0WakUQAAFAay.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/DYW0WakUQAAFAay.jpg",
+						"url": "https://t.co/OvzjRQvaVE",
+						"display_url": "pic.twitter.com/OvzjRQvaVE",
+						"expanded_url": "https://twitter.com/FranzDiego/status/974383197852176385/photo/1",
+						"type": "photo",
+						"sizes": {
+							"thumb": {
+								"w": 150,
+								"h": 150,
+								"resize": "crop"
+							},
+							"medium": {
+								"w": 960,
+								"h": 540,
+								"resize": "fit"
+							},
+							"small": {
+								"w": 680,
+								"h": 383,
+								"resize": "fit"
+							},
+							"large": {
+								"w": 960,
+								"h": 540,
+								"resize": "fit"
+							}
+						}
+					}
+				]
+			},
+			"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 60340258,
+				"id_str": "60340258",
+				"name": "Glistening✨✨✨",
+				"screen_name": "FranzDiego",
+				"location": "South Minneapolis",
+				"description": "WAG WZRD Music: http://franzdiego.bandcamp.com FranzDiego@gmail.com @illuminous3 Turnt Up Crew",
+				"url": "http://www.soundcloud.com/franzdiego",
+				"entities": {
+					"url": {
+						"urls": [
+							{
+								"url": "http://www.soundcloud.com/franzdiego",
+								"expanded_url": null,
+								"indices": [
+									0,
+									36
+								]
+							}
+						]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 2633,
+				"friends_count": 984,
+				"listed_count": 55,
+				"created_at": "Sun Jul 26 16:37:10 +0000 2009",
+				"favourites_count": 48,
+				"utc_offset": -18000,
+				"time_zone": "Central Time (US & Canada)",
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 34685,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "1A1B1F",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/26865089/HOMEBOY.JPG",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/26865089/HOMEBOY.JPG",
+				"profile_background_tile": true,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/650802001345953792/LbfrbKfv_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/650802001345953792/LbfrbKfv_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/60340258/1442359605",
+				"profile_link_color": "2FC2EF",
+				"profile_sidebar_border_color": "181A1E",
+				"profile_sidebar_fill_color": "252429",
+				"profile_text_color": "666666",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false,
+				"translator_type": "none"
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 1270,
+			"favorite_count": 3886,
+			"favorited": false,
+			"retweeted": true,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 1270,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": true,
+		"lang": "en"
+	},
+	{
+		"created_at": "Fri Mar 16 16:14:41 +0000 2018",
+		"id": 974680363376111600,
+		"id_str": "974680363376111617",
+		"full_text": "Why do people feel the need to punch down folks who are still struggling to get basic recognition that they're just as valid as anyone else?\n\n#BlackLivesMatter https://t.co/pTaJE8gUh1",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			159
+		],
+		"entities": {
+			"hashtags": [
+				{
+					"text": "BlackLivesMatter",
+					"indices": [
+						142,
+						159
+					]
+				}
+			],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [],
+			"media": [
+				{
+					"id": 974680344669507600,
+					"id_str": "974680344669507585",
+					"indices": [
+						160,
+						183
+					],
+					"media_url": "http://pbs.twimg.com/media/DYbCnAGU0AEfLRF.jpg",
+					"media_url_https": "https://pbs.twimg.com/media/DYbCnAGU0AEfLRF.jpg",
+					"url": "https://t.co/pTaJE8gUh1",
+					"display_url": "pic.twitter.com/pTaJE8gUh1",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/974680363376111617/photo/1",
+					"type": "photo",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 383,
+							"h": 680,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 720,
+							"h": 1280,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 675,
+							"h": 1200,
+							"resize": "fit"
+						}
+					}
+				}
+			]
+		},
+		"extended_entities": {
+			"media": [
+				{
+					"id": 974680344669507600,
+					"id_str": "974680344669507585",
+					"indices": [
+						160,
+						183
+					],
+					"media_url": "http://pbs.twimg.com/media/DYbCnAGU0AEfLRF.jpg",
+					"media_url_https": "https://pbs.twimg.com/media/DYbCnAGU0AEfLRF.jpg",
+					"url": "https://t.co/pTaJE8gUh1",
+					"display_url": "pic.twitter.com/pTaJE8gUh1",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/974680363376111617/photo/1",
+					"type": "photo",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 383,
+							"h": 680,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 720,
+							"h": 1280,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 675,
+							"h": 1200,
+							"resize": "fit"
+						}
+					}
+				},
+				{
+					"id": 974680353737556000,
+					"id_str": "974680353737555973",
+					"indices": [
+						160,
+						183
+					],
+					"media_url": "http://pbs.twimg.com/media/DYbCnh4UQAU9t2T.jpg",
+					"media_url_https": "https://pbs.twimg.com/media/DYbCnh4UQAU9t2T.jpg",
+					"url": "https://t.co/pTaJE8gUh1",
+					"display_url": "pic.twitter.com/pTaJE8gUh1",
+					"expanded_url": "https://twitter.com/JedaiSaboteur/status/974680363376111617/photo/1",
+					"type": "photo",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"medium": {
+							"w": 675,
+							"h": 1200,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 720,
+							"h": 1280,
+							"resize": "fit"
+						},
+						"small": {
+							"w": 383,
+							"h": 680,
+							"resize": "fit"
+						}
+					}
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": 974678423279886300,
+		"in_reply_to_status_id_str": "974678423279886336",
+		"in_reply_to_user_id": 390243569,
+		"in_reply_to_user_id_str": "390243569",
+		"in_reply_to_screen_name": "JedaiSaboteur",
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Fri Mar 16 16:06:59 +0000 2018",
+		"id": 974678423279886300,
+		"id_str": "974678423279886336",
+		"full_text": "So... What, this professor gets to spew false racist garbage and keeps her position because of tenure?\n\nWhat. I. Grrr.\n---\nNew York Post : UPenn law professor removed for calling black students inferior. https://t.co/nbSIFjpYmS",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			227
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [
+				{
+					"url": "https://t.co/nbSIFjpYmS",
+					"expanded_url": "http://google.com/newsstand/s/CBIw_cSy9zc",
+					"display_url": "google.com/newsstand/s/CB…",
+					"indices": [
+						204,
+						227
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	{
+		"created_at": "Fri Mar 16 15:57:54 +0000 2018",
+		"id": 974676135752560600,
+		"id_str": "974676135752560640",
+		"full_text": "Aaaand this is why highschoolers are worried about their own safety. Arming teachers won't help. https://t.co/ClpBjUAUSG",
+		"truncated": false,
+		"display_text_range": [
+			0,
+			120
+		],
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [
+				{
+					"url": "https://t.co/ClpBjUAUSG",
+					"expanded_url": "http://google.com/newsstand/s/CBIwlPGP-Dc",
+					"display_url": "google.com/newsstand/s/CB…",
+					"indices": [
+						97,
+						120
+					]
+				}
+			]
+		},
+		"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 390243569,
+			"id_str": "390243569",
+			"name": "Jedai Saboteur",
+			"screen_name": "JedaiSaboteur",
+			"location": "San Francisco",
+			"description": "Node Ninja + Front End Field Agent / Occasional Game designer / layabout scoundrel. \n\nhe, him",
+			"url": "https://t.co/zfV55fkDaF",
+			"entities": {
+				"url": {
+					"urls": [
+						{
+							"url": "https://t.co/zfV55fkDaF",
+							"expanded_url": "http://paradoxinversion.com",
+							"display_url": "paradoxinversion.com",
+							"indices": [
+								0,
+								23
+							]
+						}
+					]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 186,
+			"friends_count": 444,
+			"listed_count": 17,
+			"created_at": "Thu Oct 13 17:47:24 +0000 2011",
+			"favourites_count": 1033,
+			"utc_offset": -25200,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 1851,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "1A1B1F",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/948591224952254464/pmsj4F0O_normal.jpg",
+			"profile_link_color": "DD2E44",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false,
+			"translator_type": "none"
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 1,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	}
+]

@@ -6,7 +6,9 @@ module.exports =(() => {
   };
   const makeConfig = () => {
     if (getEnv() === "development"){
-      require("dotenv").config({path: path.join(__dirname, "../../.env")});
+      require("dotenv").config({path: path.join(__dirname, "../../.dev.env")});
+    } else if ( getEnv() === "development" === "production"){
+      require("dotenv").config({path: path.join(__dirname, "../../.prod.env")});
     }
 
     config = {
@@ -22,6 +24,16 @@ module.exports =(() => {
       },
       session: {
         session_secret: process.env.EXPRESS_SESSION_SECRET
+      },
+      general: {
+        port: process.env.PORT
+      },
+      db:{
+        user: process.env.MONGO_USER,
+        password: process.env.MONGO_PASSWORD,
+        port: process.env.MONGO_PORT,
+        url: process.env.MONGO_URL,
+        database: process.env.MONGO_DATABASE
       }
     };
     return config;

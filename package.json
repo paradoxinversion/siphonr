@@ -2,7 +2,7 @@
   "name": "siphonr",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/server.js",
+  "main": "./dist/server.js",
   "scripts": {
     "test": "mocha --reporter spec --require babel-register --require babel-polyfill",
     "babel-node": "babel-node --presets env",

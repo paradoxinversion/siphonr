@@ -32,7 +32,7 @@ module.exports =(() => {
         user: process.env.MONGO_USER,
         password: process.env.MONGO_PASSWORD,
         port: process.env.MONGO_PORT,
-        url: process.env.MONGO_URL,
+        url: process.env.MONGODB_URI,
         database: process.env.MONGO_DATABASE
       }
     };

@@ -34,31 +34,34 @@ var startClient = exports.startClient = function () {
             return _mongoose2.default.connect("mongodb://localhost/siphonr-users", mongooseOptions);
 
           case 6:
-            _context.next = 11;
+            _context.next = 12;
             break;
 
           case 8:
             config = require("../config/config.js").getConfig();
-            _context.next = 11;
-            return _mongoose2.default.connect("mongodb://" + config.db.user + ":" + config.db.password + "@" + config.db.url + ":" + config.db.port + "/" + config.db.database, mongooseOptions);
+            // await mongoose.connect(`mongodb://${config.db.user}:${config.db.password}@${config.db.url}:${config.db.port}/${config.db.database}`, mongooseOptions);
 
-          case 11:
-            _context.next = 17;
+            console.log("URL:::::::", config.url);
+            _context.next = 12;
+            return _mongoose2.default.connect(config.url, mongooseOptions);
+
+          case 12:
+            _context.next = 18;
             break;
 
-          case 13:
-            _context.prev = 13;
+          case 14:
+            _context.prev = 14;
             _context.t0 = _context["catch"](2);
 
             console.log(_context.t0);
             throw _context.t0;
 
-          case 17:
+          case 18:
           case "end":
             return _context.stop();
         }
       }
-    }, _callee, undefined, [[2, 13]]);
+    }, _callee, undefined, [[2, 14]]);
   }));
 
   return function startClient() {

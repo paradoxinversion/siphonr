@@ -10,6 +10,7 @@ export const startClient = async () => {
     } else {
       const config = require("../config/config.js").getConfig();
       // await mongoose.connect(`mongodb://${config.db.user}:${config.db.password}@${config.db.url}:${config.db.port}/${config.db.database}`, mongooseOptions);
+      console.log("URL:::::::", config.url)
       await mongoose.connect(config.url, mongooseOptions);
     }
     

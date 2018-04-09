@@ -11,7 +11,6 @@
     "babel-node": "babel-node --presets env",
     "start": "nodemon --exec npm run babel-node -- ./src/server.js",
     "start:heroku": "npm run clean && npm run build && npm run serve"
-    
   },
   "keywords": [],
   "author": "Jedai Saboteur",
@@ -20,6 +19,7 @@
     "node": "9.3.0"
   },
   "dependencies": {
+    "babel-cli": "^6.26.0",
     "body-parser": "^1.18.2",
     "chalk": "^2.3.2",
     "compromise": "^11.4.0",
@@ -41,7 +41,6 @@
     "twitter": "^1.7.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-plugin-transform-regenerator": "^6.26.0",
     "babel-polyfill": "^6.26.0",

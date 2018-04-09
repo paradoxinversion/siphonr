@@ -9,7 +9,8 @@ export const startClient = async () => {
       await mongoose.connect("mongodb://localhost/siphonr-users", mongooseOptions);
     } else {
       const config = require("../config/config.js").getConfig();
-      await mongoose.connect(`mongodb://${config.db.user}:${config.db.password}@${config.db.url}:${config.db.port}/${config.db.database}`, mongooseOptions);
+      // await mongoose.connect(`mongodb://${config.db.user}:${config.db.password}@${config.db.url}:${config.db.port}/${config.db.database}`, mongooseOptions);
+      await mongoose.connect(config.url, mongooseOptions);
     }
     
   } catch (e){

@@ -10,7 +10,8 @@
     "serve": "node ./dist/server.js",
     "babel-node": "babel-node --presets env",
     "start": "nodemon --exec npm run babel-node -- ./src/server.js",
-    "start:heroku": "npm run clean && npm run build && npm run serve"
+    "start:heroku": "npm run clean && npm run build && npm run serve",
+    "postinstall": "npm install"
   },
   "keywords": [],
   "author": "Jedai Saboteur",

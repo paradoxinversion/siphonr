@@ -16,7 +16,8 @@
   "author": "Jedai Saboteur",
   "license": "ISC",
   "engines": {
-    "node": "9.3.0"
+    "node": "9.3.0",
+    "npm": "5.8.0"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",

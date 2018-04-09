@@ -6,11 +6,11 @@
   "scripts": {
     "test": "mocha --reporter spec --require babel-register --require babel-polyfill",
     "clean": "rm -rf dist && mkdir dist",
-    "build": "babel ./src -d dist",
+    "build": "npm run clean && babel ./src -d dist",
     "serve": "node ./dist/server.js",
     "babel-node": "babel-node --presets env",
     "start": "nodemon --exec npm run babel-node -- ./src/server.js",
-    "start:heroku": "npm run clean && npm run build && npm run serve"
+    "start:heroku": "npm run serve"
   },
   "keywords": [],
   "author": "Jedai Saboteur",

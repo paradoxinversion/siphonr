@@ -5,11 +5,13 @@
   "main": "./dist/server.js",
   "scripts": {
     "test": "mocha --reporter spec --require babel-register --require babel-polyfill",
+    "clean": "rm -rf dist && mkdir dist",
+    "build": "babel ./src -d dist",
+    "serve": "node ./dist/server.js",
     "babel-node": "babel-node --presets env",
     "start": "nodemon --exec npm run babel-node -- ./src/server.js",
-    "start:heroku": "npm run build && npm run serve",
-    "build": "babel ./src -d dist",
-    "serve": "node dist/server.js"
+    "start:heroku": "npm run clean && npm run build && npm run serve"
+    
   },
   "keywords": [],
   "author": "Jedai Saboteur",

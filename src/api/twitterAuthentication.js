@@ -6,15 +6,23 @@ const request = require("request");
 const cors = require("cors");
 const router = express.Router();
 
-const corsOptions = {
-  origin: true,
-  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-  credentials: true,
-  exposedHeaders: ["x-auth-token"]
-};
+// const corsOptions = {
+//   origin: true,
+//   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+//   credentials: true,
+//   exposedHeaders: ["x-auth-token"]
+// };
 // router.use(cors(corsOptions));
-
-router.post("/twitter/reverse", cors(corsOptions), function(req, res) {
+router.use(function(req, res, next) {
+  console.log(req.session);
+  res.header("Access-Control-Allow-Credentials", "true");
+  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.header("Access-Control-Allow-Headers", "Access-Control-Allow-Credentials, Origin, X-Requested-With, Content-Type, Accept, Authorization");
+  res.header("Access-Control-Expose-Headers", "x-auth-token");
+  res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
+  next();
+});
+router.post("/twitter/reverse", function(req, res) {
     request.post({
       url: "https://api.twitter.com/oauth/request_token",
       oauth: {
@@ -32,7 +40,7 @@ router.post("/twitter/reverse", cors(corsOptions), function(req, res) {
     });
   });
 
-router.post("/twitter", cors(corsOptions), (req, res, next) => {
+router.post("/twitter", (req, res, next) => {
     request.post({
       url: "https://api.twitter.com/oauth/access_token?oauth_verifier",
       oauth: {

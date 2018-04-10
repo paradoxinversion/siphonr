@@ -15,7 +15,7 @@ const router = express.Router();
 // router.use(cors(corsOptions));
 router.use(function(req, res, next) {
   console.log(process.env.NODE_ENV);
-  const origin = (process.env.NODE_ENV === "development") ? "http://localhost:3001" : "http://siphonr.herokuapp.com"; 
+  const origin = (process.env.NODE_ENV === "development") ? "http://localhost:3001" : "http://siphonr-overview.herokuapp.com"; 
   res.header("Access-Control-Allow-Credentials", "true");
   res.header("Access-Control-Allow-Origin", origin);
   res.header("Access-Control-Allow-Headers", "Access-Control-Allow-Credentials, Origin, X-Requested-With, Content-Type, Accept, Authorization");

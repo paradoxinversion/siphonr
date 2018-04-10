@@ -17,14 +17,14 @@ var cors = require("cors");
 var router = _express2.default.Router();
 
 var corsOptions = {
-  origin: process.env.NODE_ENV === "development" ? "http://siphonr-overview.herokuapp.com" : true,
+  origin: true,
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   exposedHeaders: ["x-auth-token"]
 };
-router.use(cors(corsOptions));
+// router.use(cors(corsOptions));
 
-router.route("/twitter/reverse").post(function (req, res) {
+router.post("/twitter/reverse", cors(corsOptions), function (req, res) {
   request.post({
     url: "https://api.twitter.com/oauth/request_token",
     oauth: {
@@ -42,7 +42,7 @@ router.route("/twitter/reverse").post(function (req, res) {
   });
 });
 
-router.route("/twitter").post(function (req, res, next) {
+router.post("/twitter", cors(corsOptions), function (req, res, next) {
   request.post({
     url: "https://api.twitter.com/oauth/access_token?oauth_verifier",
     oauth: {

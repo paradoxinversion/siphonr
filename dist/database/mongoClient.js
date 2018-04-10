@@ -41,7 +41,7 @@ var startClient = exports.startClient = function () {
             config = require("../config/config.js").getConfig();
             // await mongoose.connect(`mongodb://${config.db.user}:${config.db.password}@${config.db.url}:${config.db.port}/${config.db.database}`, mongooseOptions);
 
-            console.log("URL:::::::", config.url);
+            console.log("CONFIG:::::::", process.env);
             _context.next = 12;
             return _mongoose2.default.connect(config.url, mongooseOptions);
 

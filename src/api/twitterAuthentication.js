@@ -7,7 +7,7 @@ const cors = require("cors");
 const router = express.Router();
 
 const corsOptions = {
-  origin: true,
+  origin: (process.env.NODE_ENV === "development") ? "http://siphonr-overview.herokuapp.com" : true,
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   exposedHeaders: ["x-auth-token"]

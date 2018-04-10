@@ -17,7 +17,7 @@ var cors = require("cors");
 var router = _express2.default.Router();
 
 var corsOptions = {
-  origin: true,
+  origin: process.env.NODE_ENV === "development" ? "http://siphonr-overview.herokuapp.com" : true,
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
   exposedHeaders: ["x-auth-token"]

@@ -9,8 +9,6 @@ module.exports = function () {
   var makeConfig = function makeConfig() {
     if (getEnv() === "development") {
       require("dotenv").config({ path: path.join(__dirname, "../../.dev.env") });
-    } else if (getEnv() === "development" === "production") {
-      require("dotenv").config({ path: path.join(__dirname, "../../.prod.env") });
     }
 
     config = {

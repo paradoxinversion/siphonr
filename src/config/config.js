@@ -7,9 +7,7 @@ module.exports =(() => {
   const makeConfig = () => {
     if (getEnv() === "development"){
       require("dotenv").config({path: path.join(__dirname, "../../.dev.env")});
-    } else if ( getEnv() === "development" === "production"){
-      require("dotenv").config({path: path.join(__dirname, "../../.prod.env")});
-    }
+    } 
 
     config = {
       twitter: {

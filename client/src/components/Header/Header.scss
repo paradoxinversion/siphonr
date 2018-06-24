@@ -1,0 +1,41 @@
+@import "../../scss/variables.scss";
+.overview-header{
+  display: flex;
+  justify-content: space-between;
+  background-color: $primary-color;
+  height: 62px;
+  margin-bottom: 3rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.header-content-wrapper{
+  display: flex;
+  width: 100vh;
+}
+
+.brand{
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin: 0 2rem;
+  color: #fff;
+  align-self: center;
+  font-size: 30px;
+}
+
+.brand-wrapper{
+  display: flex;
+
+}
+.search-wrapper{
+  display: flex;
+  margin-right: 2rem;
+  min-height: 30px;
+}
+
+.dropdown{
+  height: $header-item-height;
+  padding: 3;
+}

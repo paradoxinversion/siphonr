@@ -6,7 +6,9 @@
   "scripts": {
     "test": "mocha --reporter spec --require babel-register --require babel-polyfill",
     "babel-node": "babel-node --presets env",
-    "start": "nodemon --exec npm run babel-node -- ./src/server.js"
+    "start": "concurrently \"npm run start-server-dev\" \"npm run start-client-dev\"",
+    "start-client-dev": "node start-client.js",
+    "start-server-dev": "nodemon ./src/server.js --exec babel-node --watch src/ "
   },
   "keywords": [],
   "author": "Jedai Saboteur",
@@ -18,6 +20,7 @@
     "body-parser": "^1.18.2",
     "chalk": "^2.3.2",
     "compromise": "^11.4.0",
+    "concurrently": "^3.6.0",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",
     "dotenv": "^4.0.0",

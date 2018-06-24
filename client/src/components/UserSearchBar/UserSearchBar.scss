@@ -1,0 +1,24 @@
+@import "../../scss/variables.scss";
+.form-container{
+  display: flex;
+}
+
+.user-search-form{
+
+}
+
+.user-search-input{
+  margin: 0 1rem;
+  height: $header-item-height;
+  width: 250px;
+  border-radius: $header-border-radius;
+  border: none;
+  font-size: $header-font-size;
+}
+
+.header-search-dropdown{
+  border-radius: $header-border-radius;
+  height: $header-item-height;
+  border: none;
+  font-size: $header-font-size;
+}

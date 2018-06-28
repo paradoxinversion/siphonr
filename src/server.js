@@ -1,11 +1,11 @@
-import "babel-polyfill";
-import path from "path";
-import express from "express";
-import bodyParser from "body-parser";
-import morgan from "morgan";
-import session from "express-session";
-import User from "./database/User";
-import { startClient } from "./database/mongoClient";
+// import "babel-polyfill";
+const path = require("path");
+const express = require("express");
+const bodyParser = require("body-parser");
+const morgan = require("morgan");
+const session = require("express-session");
+const User = require("./database/User");
+const startClient = require("./database/mongoClient");
 const passport = require("passport");
 const TwitterTokenStrategy = require("passport-twitter-token");
 const twitterConfig = require("./config/config.js").getConfig().twitter;
@@ -19,7 +19,8 @@ passport.use(
   new TwitterTokenStrategy(
     {
       consumerKey: twitterConfig.consumer_key,
-      consumerSecret: twitterConfig.consumer_secret
+      consumerSecret: twitterConfig.consumer_secret,
+      callbackURL: "http://www.example.com/auth/twitter/callback"
     },
     function(token, tokenSecret, profile, done) {
       User.upsertTwitterUser(token, tokenSecret, profile, function(err, user) {
@@ -55,7 +56,11 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
+  const origin =
+    process.env.NODE_ENV === "development"
+      ? "http://localhost:3000"
+      : "http://siphonr.herokuapp.com";
+  res.header("Access-Control-Allow-Origin", origin);
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept, Authorization"
@@ -68,6 +73,13 @@ const api = require("./api/v1.js");
 const auth = require("./api/twitterAuthentication.js");
 app.use("/", api);
 app.use("/auth", auth);
+
+if (process.env.NODE_ENV === "production") {
+  app.use("/", express.static(path.resolve(__dirname, "..", "client/dist")));
+  app.get("*", function(req, res) {
+    res.sendFile(path.resolve(__dirname, "..", "client/dist/index.html"));
+  });
+}
 
 // Set Error Handling (Should be done after all routes are defined)
 app.use(function(req, res, next) {

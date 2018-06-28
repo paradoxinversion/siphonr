@@ -5,7 +5,7 @@ import UserProfile from "../../components/UserProfile/UserProfile";
 import HashtagList from "../../components/HashtagList/HashtagList";
 import Header from "../../components/Header/Header";
 import TweetSearch from "../../components/TweetSearch/TweetSearch";
-import axios from "axios";
+import axiosInstance from "../../axiosInstance";
 
 class MainPage extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class MainPage extends Component {
     };
 
     try {
-      const result = await axios.get(`http://localhost:3001/search`, config);
+      const result = await axiosInstance.get(`/search`, config);
       this.setState({
         data: result.data
       });

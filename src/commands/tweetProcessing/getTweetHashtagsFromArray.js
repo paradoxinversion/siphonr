@@ -1,12 +1,12 @@
 // Returns an array of hashtags from a tweet containing them, or an empty array if no hashtags exist
-const getTweetHashtagsFromArray = (tweetArr) => {
+const getTweetHashtagsFromArray = tweetArr => {
   let hashtags = [];
-  tweetArr.forEach((tweet) =>{
-    tweet.entities.hashtags.forEach((tag) =>{
+  tweetArr.forEach(tweet => {
+    tweet.entities.hashtags.forEach(tag => {
       hashtags.push(tag.text);
     });
   });
   return hashtags;
 };
 
-export default getTweetHashtagsFromArray;
+module.exports = getTweetHashtagsFromArray;

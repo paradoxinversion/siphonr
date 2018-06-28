@@ -5,15 +5,9 @@ module.exports = (() => {
     return process.env.NODE_ENV;
   };
   const makeConfig = () => {
-<<<<<<< HEAD
-    if (getEnv() === "development"){
-      require("dotenv").config({path: path.join(__dirname, "../../.dev.env")});
-    } 
-=======
     if (getEnv() === "development") {
       require("dotenv").config();
     }
->>>>>>> master
 
     config = {
       twitter: {

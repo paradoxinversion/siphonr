@@ -1,0 +1,25 @@
+// @import "../Header/header-variables.scss";
+@import "../../scss/variables.scss";
+.twitter-login{
+  width: 150px;
+  height: 30px;
+  border-radius: $header-border-radius;
+}
+
+.logged-user-name{
+  display: flex;
+  font-size: 22px;
+}
+
+.user-greeting{
+  margin-right: 1rem;
+  color: white;
+  align-self: center;
+}
+
+.twitter-logout{
+  height: $header-item-height;
+  width: 100px;
+  border-radius: $header-border-radius;
+  font-size: $header-font-size;
+}

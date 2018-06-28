@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const UserSchema = new Schema({
@@ -11,19 +11,28 @@ const UserSchema = new Schema({
   }
 });
 
-UserSchema.statics.upsertTwitterUser = async function( token, tokenSecret, profile, cb){
-  try{
+UserSchema.statics.upsertTwitterUser = async function(
+  token,
+  tokenSecret,
+  profile,
+  cb
+) {
+  try {
     const twitterProvider = {
       id: profile.id,
       token: token,
       tokenSecret: tokenSecret
     };
 
-    const that=this;
-    const existingUser = await this.findOneAndUpdate({"twitterProvider.id": profile.id}, twitterProvider, {
-      upsert: true
-    });
-    if (!existingUser){
+    const that = this;
+    const existingUser = await this.findOneAndUpdate(
+      { "twitterProvider.id": profile.id },
+      twitterProvider,
+      {
+        upsert: true
+      }
+    );
+    if (!existingUser) {
       const newUser = new that({
         displayName: profile.displayName,
         twitterProvider: {
@@ -38,12 +47,10 @@ UserSchema.statics.upsertTwitterUser = async function( token, tokenSecret, profi
       await existingUser.save();
       return cb(null, existingUser);
     }
-  } catch (e){
+  } catch (e) {
     console.log(e);
     return cb(e, false);
   }
-
-
 };
 
-export default UserSchema;
+module.exports = UserSchema;

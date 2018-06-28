@@ -2,28 +2,27 @@
   "name": "siphonr",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/server.js",
+  "main": "server.js",
   "scripts": {
-    "test": "mocha --reporter spec --require babel-register --require babel-polyfill",
-    "clean": "rm -rf dist && mkdir dist",
-    "build": "npm run clean && babel ./src -d dist",
-    "serve": "node ./dist/server.js",
-    "babel-node": "babel-node --presets env",
-    "start": "nodemon --exec npm run babel-node -- ./src/server.js",
-    "start:heroku": "npm run serve"
+    "test": "mocha --reporter spec",
+    "start": "concurrently \"npm run start-server-dev\" \"npm run start-client-dev\"",
+    "start-client-dev": "node start-client.js",
+    "start-server-dev": "nodemon ./src/server.js --watch src/ ",
+    "serve": "NODE_ENV=production nodemon ./src/server.js",
+    "serve-heroku": "node ./src/server.js",
+    "build-client": "cd client && npm run build"
   },
   "keywords": [],
   "author": "Jedai Saboteur",
   "license": "ISC",
   "engines": {
-    "node": "9.3.0",
-    "npm": "5.8.0"
+    "node": "8.9.1"
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
     "body-parser": "^1.18.2",
     "chalk": "^2.3.2",
     "compromise": "^11.4.0",
+    "concurrently": "^3.6.0",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",
     "dotenv": "^4.0.0",
@@ -42,12 +41,16 @@
     "twitter": "^1.7.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
-    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-loader": "^7.1.4",
     "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
-    "mocha": "^5.0.4"
+    "clean-webpack-plugin": "^0.1.19",
+    "mocha": "^5.0.4",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
   }
 }

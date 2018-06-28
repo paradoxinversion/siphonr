@@ -1,21 +1,19 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
-export const startClient = async () => {
-  const mongooseOptions = {
-  };
+const startClient = async () => {
+  const mongooseOptions = {};
   mongoose.Promise = global.Promise;
   try {
-    if (process.env.NODE_ENV === "development"){
-      await mongoose.connect("mongodb://localhost/siphonr-users", mongooseOptions);
-    } else {
-      const config = require("../config/config.js").getConfig();
-      // await mongoose.connect(`mongodb://${config.db.user}:${config.db.password}@${config.db.url}:${config.db.port}/${config.db.database}`, mongooseOptions);
-      console.log("CONFIG:::::::", config)
-      await mongoose.connect(process.env.MONGODB_URI, mongooseOptions);
-    }
-    
-  } catch (e){
+    const databaseURI =
+      process.env.MONGODB_URI || "mongodb://localhost/siphonr-users";
+    await mongoose.connect(
+      databaseURI,
+      mongooseOptions
+    );
+  } catch (e) {
     console.log(e);
     throw e;
   }
 };
+
+module.exports = startClient;

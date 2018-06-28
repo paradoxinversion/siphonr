@@ -1,0 +1,51 @@
+@import "../../scss/variables.scss";
+
+.profile-wrapper{
+  display: flex;
+  margin-bottom: 3rem;
+}
+.profile-data-field{
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  padding-bottom: 4px;
+}
+
+.profile-content{
+  display: flex;
+  flex-direction: row;
+  box-shadow: $shadow-standard;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  min-width: 50rem;
+  border-radius: 10px;
+
+}
+.profile-img{
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  box-shadow: $shadow-center;
+
+}
+
+.profile-info{
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.profile-name{
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 6px;
+}
+
+.profile-at{
+  font-size: 18px;
+  padding-bottom: 12px;
+}
+
+.horizontal-rule {
+  border: 0;
+  height: 1px;
+  background: #333;
+}

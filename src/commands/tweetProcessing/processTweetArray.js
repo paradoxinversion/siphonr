@@ -1,11 +1,11 @@
-import getTweetHashtagsFromArray from "./getTweetHashtagsFromArray";
-import getRetweetAndQuoteData from "./getRetweetAndQuoteData";
-import getTweetMedia from "./getTweetMedia";
-import getTweetText from "./getTweetText";
-import getRetweetCount from "./getRetweetCount";
-import getTweetUrlData from "./getTweetUrlData";
-const processTweetArray = (tweets) => {
-  const tweetData = tweets.map((tweet) => {
+const getTweetHashtagsFromArray = require("./getTweetHashtagsFromArray");
+const getRetweetAndQuoteData = require("./getRetweetAndQuoteData");
+const getTweetMedia = require("./getTweetMedia");
+const getTweetText = require("./getTweetText");
+const getRetweetCount = require("./getRetweetCount");
+const getTweetUrlData = require("./getTweetUrlData");
+const processTweetArray = tweets => {
+  const tweetData = tweets.map(tweet => {
     return {
       created_at: tweet.created_at,
       id_str: tweet.id_str,
@@ -28,4 +28,4 @@ const processTweetArray = (tweets) => {
   return tweetData;
 };
 
-export default processTweetArray;
+module.exports = processTweetArray;

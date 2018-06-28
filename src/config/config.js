@@ -1,17 +1,23 @@
 const path = require("path");
-module.exports =(() => {
+module.exports = (() => {
   let config = {};
   const getEnv = () => {
     return process.env.NODE_ENV;
   };
   const makeConfig = () => {
+<<<<<<< HEAD
     if (getEnv() === "development"){
       require("dotenv").config({path: path.join(__dirname, "../../.dev.env")});
     } 
+=======
+    if (getEnv() === "development") {
+      require("dotenv").config();
+    }
+>>>>>>> master
 
     config = {
       twitter: {
-        consumer_key : process.env.TWITTER_CONSUMER_KEY,
+        consumer_key: process.env.TWITTER_CONSUMER_KEY,
         consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
         access_token_key: process.env.TWITTER_ACCESS_TOKEN_KEY,
         access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
@@ -26,11 +32,11 @@ module.exports =(() => {
       general: {
         port: process.env.PORT
       },
-      db:{
+      db: {
         user: process.env.MONGO_USER,
         password: process.env.MONGO_PASSWORD,
         port: process.env.MONGO_PORT,
-        url: process.env.MONGODB_URI,
+        url: process.env.MONGO_URL,
         database: process.env.MONGO_DATABASE
       }
     };

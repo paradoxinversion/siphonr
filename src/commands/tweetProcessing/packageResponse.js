@@ -3,9 +3,10 @@ const packageResponse = (user, processedTweets, mostCommonHashtags) => {
     user,
     mostCommonHashtags,
     processedTweets,
-    topTweetsByRT: Object.assign([],processedTweets).sort((a,b) =>{
-      return b.retweet_count - a.retweet_count; })
+    topTweetsByRT: Object.assign([], processedTweets).sort((a, b) => {
+      return b.retweet_count - a.retweet_count;
+    })
   };
 };
 
-export default packageResponse;
+module.exports = packageResponse;

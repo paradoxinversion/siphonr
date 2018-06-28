@@ -1,0 +1,69 @@
+@import "../../scss/variables.scss";
+
+
+.tweet{
+  border-radius: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: white;
+  margin-bottom: .5rem;
+  hyphens: auto;
+  box-shadow: $shadow-standard;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.tweet-wrapper{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 1rem;
+  width: 25rem;
+  min-width: 550px;
+}
+
+.tweet-metadata{
+  display: flex;
+}
+
+.tweet-thread{
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+.reply-info-wrapper{
+  padding-left: 1rem;
+  background-color: grey;
+}
+
+.tweet-media-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tweet-text{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  word-wrap: break-word;
+}
+
+.retweet{
+  width: 90%;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 0 1rem;
+  align-self: center;
+  margin-bottom: 1rem;
+  box-shadow: $shadow-center;
+}
+
+.tweet__retweeted-string{
+  margin: 1rem 0;
+}
+
+.tweet-post-timestamp{
+  font-size: 12px;
+}

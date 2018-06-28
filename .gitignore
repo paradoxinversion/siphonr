@@ -4,3 +4,4 @@ secrets.json
 log.txt
 .env
 .apib
+/client/dist

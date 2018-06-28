@@ -1,6 +1,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
 module.exports = {
   mode: "production",
   entry: ["babel-polyfill", "./src/index.js"],
@@ -13,8 +15,14 @@ module.exports = {
         options: { presets: ["env"], plugins: ["transform-class-properties"] }
       },
       {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"]
+        test: /\.(sa|sc|c)ss$/,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader
+          },
+          "css-loader",
+          "sass-loader"
+        ]
       },
       {
         test: /\.(png|jpg|jpeg|gif|svg|pdf)/,
@@ -37,6 +45,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: "React Starter",
       template: path.resolve(__dirname, "public/index.html")
-    })
+    }),
+    new MiniCssExtractPlugin()
   ]
 };

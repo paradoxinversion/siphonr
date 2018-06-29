@@ -18,9 +18,9 @@
   <script>
     const baseURL = window.location.host.includes("localhost")
       ? "http://localhost:3000/"
-      : "http://siphonr.herokuapp.com";
+      : "http://siphonr.herokuapp.com/";
     const bundleScript = document.createElement('script');
-    bundleScript.src = baseURL + "dist/bundle.js";
+    bundleScript.src = baseURL + "bundle.js";
     document.getElementsByTagName('script')[0].parentNode.appendChild(bundleScript);
   </script>
 </body>

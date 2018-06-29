@@ -5,7 +5,7 @@ module.exports = (() => {
     return process.env.NODE_ENV;
   };
   const makeConfig = () => {
-    if (getEnv() === "development") {
+    if (getEnv() === "development" || getEnv() === "local-production") {
       require("dotenv").config();
     }
 

@@ -36,16 +36,16 @@ module.exports = {
   },
   resolve: { extensions: ["*", ".js", ".jsx"] },
   output: {
-    path: path.resolve(__dirname, "dist/"),
-    publicPath: "/dist/",
+    path: path.resolve(__dirname, "dist"),
     filename: "bundle.js"
   },
 
   plugins: [
     new CleanWebpackPlugin(["dist"]),
     new HtmlWebpackPlugin({
-      title: "React Starter",
-      template: path.resolve(__dirname, "public/index.html")
+      title: "Siphonr",
+      template: path.resolve(__dirname, "public/index.html"),
+      inject: false
     }),
     new MiniCssExtractPlugin({
       filename: "[name].css",

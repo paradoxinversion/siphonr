@@ -11,7 +11,6 @@ const TwitterTokenStrategy = require("passport-twitter-token");
 const twitterConfig = require("./config/config.js").getConfig().twitter;
 const sessionConfig = require("./config/config.js").getConfig().session;
 const general = require("./config/config.js").getConfig().general;
-
 startClient();
 const app = express();
 console.log(twitterConfig);
@@ -57,8 +56,11 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(function(req, res, next) {
   const origin =
-    process.env.NODE_ENV === "development"
-      ? "http://localhost:3000"
+    process.env.NODE_ENV === "development" ||
+    process.env.NODE_ENV === "local-production"
+      ? process.env.NODE_ENV === "development"
+        ? "http://localhost:3000"
+        : "http://localhost:3001"
       : "http://siphonr.herokuapp.com";
   res.header("Access-Control-Allow-Origin", origin);
   res.header(
@@ -74,7 +76,10 @@ const auth = require("./api/twitterAuthentication.js");
 app.use("/", api);
 app.use("/auth", auth);
 
-if (process.env.NODE_ENV === "production") {
+if (
+  process.env.NODE_ENV === "production" ||
+  process.env.NODE_ENV === "local-production"
+) {
   app.use("/", express.static(path.resolve(__dirname, "..", "client/dist")));
   app.get("*", function(req, res) {
     res.sendFile(path.resolve(__dirname, "..", "client/dist/index.html"));

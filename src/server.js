@@ -16,6 +16,17 @@ startClient();
 
 const app = express();
 
+app.use(morgan("dev"));
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use(
+  session({
+    secret: sessionConfig.session_secret,
+    resave: true,
+    saveUninitialized: true
+  })
+);
+
 passport.use(
   new TwitterTokenStrategy(
     {
@@ -40,18 +51,6 @@ passport.deserializeUser(function(id, done) {
     done(err, user);
   });
 });
-
-app.use(morgan("dev"));
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-app.use(
-  session({
-    secret: sessionConfig.session_secret,
-    resave: true,
-    saveUninitialized: true
-  })
-);
-
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -63,7 +62,7 @@ app.use(function(req, res, next) {
         ? "http://localhost:3000"
         : "http://localhost:3001"
       : "http://siphonr.herokuapp.com";
-  res.header("Access-Control-Allow-Origin", origin);
+  res.header("Access-Control-Allow-Origin", "*");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept, Authorization"

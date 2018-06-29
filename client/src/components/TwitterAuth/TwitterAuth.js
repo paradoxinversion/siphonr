@@ -16,13 +16,16 @@ class TwitterAuth extends React.Component {
   }
 
   renderLogin() {
+    const baseURL = window.location.host.includes("localhost")
+      ? "http://localhost:3001/"
+      : "http://siphonr.herokuapp.com/";
     return (
       <TwitterLogin
         className="twitter-login"
-        loginUrl="http://localhost:3001/auth/twitter"
+        loginUrl={`${baseurl}/auth/twitter`}
         onFailure={this.props.onFailure}
         onSuccess={this.props.onSuccess}
-        requestTokenUrl="http://localhost:3001/auth/twitter/reverse">
+        requestTokenUrl={`${baseurl}/auth/twitter/reverse`}>
         Log in with Twitter
       </TwitterLogin>
     );

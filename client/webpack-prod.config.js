@@ -46,6 +46,9 @@ module.exports = {
       title: "React Starter",
       template: path.resolve(__dirname, "public/index.html")
     }),
-    new MiniCssExtractPlugin()
+    new MiniCssExtractPlugin({
+      filename: "[name].css",
+      chunkFilename: "[id].css"
+    })
   ]
 };

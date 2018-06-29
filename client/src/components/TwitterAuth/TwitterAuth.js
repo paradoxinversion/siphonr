@@ -17,8 +17,8 @@ class TwitterAuth extends React.Component {
 
   renderLogin() {
     const baseURL = window.location.host.includes("localhost")
-      ? "http://localhost:3001/"
-      : "http://siphonr.herokuapp.com/";
+      ? "http://localhost:3001"
+      : "http://siphonr.herokuapp.com";
     return (
       <TwitterLogin
         className="twitter-login"

@@ -3,14 +3,11 @@ import MainPage from "./Pages/MainPage/MainPage";
 import ErrorBoundary from "./components/ErrorBoundary/ErrorBoundary";
 import TwitterCallback from "./Pages/TwitterCallback/TwitterCallback";
 
-import {
-  BrowserRouter,
-  Route
-} from "react-router-dom";
-import "./App.css";
+import { BrowserRouter, Route } from "react-router-dom";
+import "./App.scss";
 
 class App extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       isAuthenticated: false,
@@ -23,20 +20,20 @@ class App extends Component {
     this.logOut = this.logOut.bind(this);
   }
 
-  onAuthenticationSuccess = (response) => {
+  onAuthenticationSuccess = response => {
     const token = response.headers.get("x-auth-token");
-    response.json().then(user=>{
+    response.json().then(user => {
       if (token) {
-        this.setState({isAuthenticated: true, user, token});
+        this.setState({ isAuthenticated: true, user, token });
       }
     });
-  }
+  };
 
-  onAuthenticationFailure = (error) =>{
+  onAuthenticationFailure = error => {
     alert(error);
-  }
+  };
 
-  setAuthenticationToken(tokenAndVerifierObject){
+  setAuthenticationToken(tokenAndVerifierObject) {
     this.setState({
       authenticationToken: tokenAndVerifierObject.oauth_token
     });
@@ -48,14 +45,15 @@ class App extends Component {
       user: null,
       token: ""
     });
-  }
+  };
   render() {
-
     return (
       <BrowserRouter>
         <div className="App">
-          <Route exact path="/"
-            render={ ()=>
+          <Route
+            exact
+            path="/"
+            render={() => (
               <ErrorBoundary>
                 <MainPage
                   isAuthenticated={this.state.isAuthenticated}
@@ -66,14 +64,19 @@ class App extends Component {
                   token={this.state.token}
                 />
               </ErrorBoundary>
-            }/>
-          <Route exact path="/twitter/callback"
-            render={() =>
+            )}
+          />
+          <Route
+            exact
+            path="/twitter/callback"
+            render={() => (
               <TwitterCallback
-                setAuthenticationToken={this.setAuthenticationToken} />}/>
+                setAuthenticationToken={this.setAuthenticationToken}
+              />
+            )}
+          />
         </div>
       </BrowserRouter>
-
     );
   }
 }

@@ -19,9 +19,11 @@ router.route("/twitter/reverse").post(function(req, res) {
     {
       url: "https://api.twitter.com/oauth/request_token",
       oauth: {
-        oauth_callback: twitterConfig.callbackURL,
-        consumer_key: twitterConfig.consumer_key,
-        consumer_secret: twitterConfig.consumer_secret
+        oauth_callback:
+          twitterConfig.callbackURL || process.env.TWITTER_CALLBACK_URL,
+        consumer_key: twitterConfig.consumer_key || TWITTER_CONSUMER_KEY,
+        consumer_secret:
+          twitterConfig.consumer_secret || TWITTER_CONSUMER_SECRET
       }
     },
     function(err, r, body) {
@@ -42,8 +44,11 @@ router.route("/twitter").post(
       {
         url: "https://api.twitter.com/oauth/access_token?oauth_verifier",
         oauth: {
-          consumer_key: twitterConfig.consumer_key,
-          consumer_secret: twitterConfig.consumer_secret,
+          consumer_key:
+            twitterConfig.consumer_key || process.env.TWITTER_CONSUMER_KEY,
+          consumer_secret:
+            twitterConfig.consumer_secret ||
+            process.env.TWITTER_CONSUMER_SECRET,
           token: req.query.oauth_token
         },
         form: { oauth_verifier: req.query.oauth_verifier }

@@ -24,8 +24,10 @@ const getUserTimeline = async (
   let twitterResult;
   try {
     const config = {
-      consumer_key: twitterConfig.consumer_key,
-      consumer_secret: twitterConfig.consumer_secret,
+      consumer_key:
+        twitterConfig.consumer_key || process.env.TWITTER_CONSUMER_KEY,
+      consumer_secret:
+        twitterConfig.consumer_secret || process.env.TWITTER_CONSUMER_SECRET,
       access_token_key: token,
       access_token_secret: secret,
       callbackURL: twitterConfig.callbackURL

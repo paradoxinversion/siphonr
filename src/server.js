@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(
   session({
-    secret: sessionConfig.session_secret,
+    secret: sessionConfig.session_secret || process.env.EXPRESS_SESSION_SECRET,
     resave: true,
     saveUninitialized: true
   })
@@ -30,8 +30,8 @@ app.use(
 passport.use(
   new TwitterTokenStrategy(
     {
-      consumerKey: twitterConfig.consumer_key,
-      consumerSecret: twitterConfig.consumer_secret,
+      consumerKey: twitterConfig.consumer_key || TWITTER_CONSUMER_KEY,
+      consumerSecret: twitterConfig.consumer_secret || TWITTER_CONSUMER_SECRET,
       callbackURL: "http://www.example.com/auth/twitter/callback"
     },
     function(token, tokenSecret, profile, done) {
@@ -95,7 +95,7 @@ app.use(function(req, res, next) {
 
 app.use(function(err, req, res, next) {
   res.status(err.status || 500);
-  res.send(err.status);
+  res.sendStatus(err.status);
 });
 
 app.listen(

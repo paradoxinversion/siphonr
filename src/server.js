@@ -11,9 +11,11 @@ const TwitterTokenStrategy = require("passport-twitter-token");
 const twitterConfig = require("./config/config.js").getConfig().twitter;
 const sessionConfig = require("./config/config.js").getConfig().session;
 const general = require("./config/config.js").getConfig().general;
+
 startClient();
+
 const app = express();
-console.log(twitterConfig);
+
 passport.use(
   new TwitterTokenStrategy(
     {
@@ -71,9 +73,10 @@ app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Methods", "PUT, POST, GET, DELETE, OPTIONS");
   next();
 });
+
 const api = require("./api/v1.js");
 const auth = require("./api/twitterAuthentication.js");
-app.use("/", api);
+app.use("/api", api);
 app.use("/auth", auth);
 
 if (
@@ -99,4 +102,10 @@ app.use(function(err, req, res, next) {
 });
 
 // Start the Server
-app.listen(general.port);
+app.listen(
+  process.env.NODE_ENV === "development"
+    ? general.port
+    : process.env.NODE_ENV === "local-production"
+      ? 3000
+      : process.env.PORT
+);

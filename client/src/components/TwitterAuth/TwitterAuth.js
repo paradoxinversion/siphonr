@@ -22,10 +22,10 @@ class TwitterAuth extends React.Component {
     return (
       <TwitterLogin
         className="twitter-login"
-        loginUrl={`${baseurl}/auth/twitter`}
+        loginUrl={`${baseURL}/auth/twitter`}
         onFailure={this.props.onFailure}
         onSuccess={this.props.onSuccess}
-        requestTokenUrl={`${baseurl}/auth/twitter/reverse`}>
+        requestTokenUrl={`${baseURL}/auth/twitter/reverse`}>
         Log in with Twitter
       </TwitterLogin>
     );

@@ -41,9 +41,7 @@ passport.deserializeUser(function(id, done) {
   });
 });
 
-// Set middlewares
 app.use(morgan("dev"));
-app.use(express.static(path.join(__dirname, "public")));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(
@@ -56,6 +54,7 @@ app.use(
 
 app.use(passport.initialize());
 app.use(passport.session());
+
 app.use(function(req, res, next) {
   const origin =
     process.env.NODE_ENV === "development" ||
@@ -89,7 +88,6 @@ if (
   });
 }
 
-// Set Error Handling (Should be done after all routes are defined)
 app.use(function(req, res, next) {
   var err = new Error("Not Found");
   err.status = 404;
@@ -101,7 +99,6 @@ app.use(function(err, req, res, next) {
   res.send(err.status);
 });
 
-// Start the Server
 app.listen(
   process.env.NODE_ENV === "development"
     ? general.port
